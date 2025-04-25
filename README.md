@@ -13,4 +13,33 @@ CAMS-F es un framework innovador que combina desarrollo multiplataforma (Flutter
 🗺️ Geolocalización Precisa: Google Maps API (<5m de precisión)
 
 🛠️ Infraestructura como Código: Terraform/Pulumi para despliegues escalables
+
+Estructura del Repositorio
+
+cams-f/
+├── lib/                       # Código principal del framework
+
+│   ├── core/                  # Módulos base
+
+│   │   ├── auth/              # Autenticación
+
+│   │   ├── data/              # Gestión de datos
+
+│   │   └── notifications/     # Notificaciones
+
+│   └── features/              # Módulos de funcionalidad
+
+│       └── tasks/             # Ejemplo: gestión de tareas
+
+├── example/                   # App demo de ejemplo
+
+├── test/                      # Pruebas unitarias
+
+├── firebase_rules/            # Reglas de seguridad
+
+├── .github/workflows/         # CI/CD con GitHub Actions
+
+├── docs/                      # Documentación adicional
+
+└── scripts/                   # Scripts de apoyo (ej: codegen)
 camsF
