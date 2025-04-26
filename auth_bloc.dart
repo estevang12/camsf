@@ -36,3 +36,42 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
     emit(Unauthenticated());
   }
 }
+
+// En auth_event.dart
+part of 'auth_bloc.dart';
+
+abstract class AuthEvent {}
+
+class RegisterRequested extends AuthEvent {
+  final String email;
+  final String password;
+  final String displayName;
+
+  RegisterRequested({
+    required this.email,
+    required this.password,
+    required this.displayName,
+  });
+}
+
+// En auth_bloc.dart
+class AuthBloc extends Bloc<AuthEvent, AuthState> {
+  // ... (otros manejadores)
+
+  Future<void> _onRegisterRequested(
+    RegisterRequested event,
+    Emitter<AuthState> emit,
+  ) async {
+    emit(AuthLoading());
+    try {
+      final user = await _authRepository.registerWithEmailAndPassword(
+        email: event.email,
+        password: event.password,
+        displayName: event.displayName,
+      );
+      emit(Authenticated(user));
+    } catch (e) {
+      emit(AuthError(e.toString()));
+    }
+  }
+}
