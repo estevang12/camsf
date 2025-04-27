@@ -70,3 +70,15 @@ cams-f/
 /iac/ ➔ Scripts de Infraestructura como Código
 
 camsF
+
+
+# Requisitos
+🔄 Flutter (3.0 o superior)
+
+🔄 Firebase
+
+🔄 Terraform (0.12 o superior)
+
+🔄Google Maps API
+
+
