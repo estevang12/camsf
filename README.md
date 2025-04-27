@@ -43,4 +43,7 @@ cams-f/
 ├── docs/                      # Documentación adicional
 
 └── scripts/                   # Scripts de apoyo (ej: codegen)
+/models/ ➔ Modelos de contexto en DSL
+/transformations/ ➔ Transformaciones (Xtend / Scripts)
+
 camsF
