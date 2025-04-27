@@ -48,4 +48,6 @@ cams-f/
 
 /transformations/ ➔ Transformaciones (Xtend / Scripts)
 
+/flutter_app/ ➔ Proyecto base Flutter
+
 camsF
