@@ -1,0 +1,8 @@
+# Models
+
+This folder contains Domain-Specific Language (DSL) models representing context-aware mobile objects.
+
+Each model defines:
+- The type of mobile object.
+- Contextual triggers (e.g., location change).
+- Notifications to be sent based on context.
