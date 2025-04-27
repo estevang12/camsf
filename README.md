@@ -1,8 +1,19 @@
 # CAMSF
-CAMS-F es un framework innovador que combina desarrollo multiplataforma (Flutter), sistemas conscientes del contexto e integración con servicios en la nube (Firebase/Google Maps) para crear aplicaciones adaptativas de alto rendimiento.
+CAMS-F: Context-Aware Mobile System Framework (Flutter)
+
+# Descripción:
+
+CAMS-F es un framework evolutivo para sistemas móviles sensibles al contexto, diseñado para aplicaciones multiplataforma. Utiliza un enfoque Model-Driven Development (MDD) para la creación y automatización de aplicaciones móviles context-aware, integrando servicios en la nube como Firebase, Google Maps y ofreciendo soporte para infraestructura como código (IaC) mediante Terraform.
+
+Este proyecto busca facilitar el desarrollo de aplicaciones móviles adaptativas y personalizadas según el contexto del usuario, con un fuerte enfoque en la eficiencia y escalabilidad de las soluciones.
 
 📌 Características Clave
+
 🔄 Desarrollo Multiplataforma: Un solo código para iOS, Android, web y desktop con Flutter
+
+🔄 Context-Aware: Gestión del contexto del usuario utilizando sensores y servicios en la nube.
+
+🔄 MDD (Model-Driven Development): Generación automatizada de código y personalización de aplicaciones.
 
 🧠 Modelado de Contexto: DSL intuitivo para definir reglas contextuales (geolocalización, sensores IoT, etc.)
 
@@ -13,6 +24,8 @@ CAMS-F es un framework innovador que combina desarrollo multiplataforma (Flutter
 🗺️ Geolocalización Precisa: Google Maps API (<5m de precisión)
 
 🛠️ Infraestructura como Código: Terraform/Pulumi para despliegues escalables
+
+
 
 Estructura del Repositorio
 
