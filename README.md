@@ -107,3 +107,11 @@ Para configurar la infraestructura necesaria (bases de datos, servicios en la nu
    
    terraform apply
 
+# Uso
+1. Ejecutar la aplicación
+
+   Una vez que tengas todo configurado, puedes ejecutar la aplicación en un emulador o dispositivo físico:
+ 
+   flutter run
+
+   
