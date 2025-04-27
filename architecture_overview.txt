@@ -1,0 +1,9 @@
+Modelo DSL
+    ↓
+Transformaciones Xtend
+    ↓
+App Flutter
+    ↓
+Servicios Firebase
+    ↓
+Despliegue (Terraform / Pulumi)
