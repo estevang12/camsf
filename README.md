@@ -50,4 +50,6 @@ cams-f/
 
 /firebase_config/ ➔ Ejemplo de Configuración de Firebase
 
+/iac/ ➔ Scripts de Infraestructura como Código
+
 camsF
