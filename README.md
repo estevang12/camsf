@@ -81,4 +81,26 @@ camsF
 
 🔄Google Maps API
 
+# Instalación
+1. Clonar el repositorio
+   git clone https://github.com/tu_usuario/CAMS-F.git
+  cd CAMS-F
+2. Instalar dependencias
+   flutter pub get
+3. Configuración de Firebase
+a) Ve a Firebase Console, crea un nuevo proyecto y sigue las instrucciones para configurar Firebase para Flutter.
+
+b) Descarga el archivo google-services.json y colócalo en el directorio android/app de tu proyecto.
+
+c) Configura Firebase en el archivo firebase_options.dart.
+
+4. Configuración de Google Maps
+1. Obtén una clave de API de Google Maps Platform.
+
+2. Añade tu clave en el archivo lib/config/config.dart.
+
+ 5. Despliegue de Infraestructura (Terraform)
+Para configurar la infraestructura necesaria (bases de datos, servicios en la nube), ejecuta los siguientes comandos de Terraform:
+terraform init
+terraform apply
 
