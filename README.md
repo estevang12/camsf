@@ -95,12 +95,15 @@ b) Descarga el archivo google-services.json y colócalo en el directorio android
 c) Configura Firebase en el archivo firebase_options.dart.
 
 4. Configuración de Google Maps
-1. Obtén una clave de API de Google Maps Platform.
+   1. Obtén una clave de API de Google Maps Platform.
 
-2. Añade tu clave en el archivo lib/config/config.dart.
+   2. Añade tu clave en el archivo lib/config/config.dart.
 
- 5. Despliegue de Infraestructura (Terraform)
+5. Despliegue de Infraestructura (Terraform)
+   
 Para configurar la infraestructura necesaria (bases de datos, servicios en la nube), ejecuta los siguientes comandos de Terraform:
-terraform init
-terraform apply
+   
+   terraform init
+   
+   terraform apply
 
