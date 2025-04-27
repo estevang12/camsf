@@ -26,7 +26,7 @@ cams-f/
 
 │   │   ├── data/              # Gestión de datos
 
-│   │   └── notifications/     # Notificaciones
+│   │   └── notifications/     # Push Notifications en Flutter
 
 │   └── features/              # Módulos de funcionalidad
 
@@ -34,7 +34,7 @@ cams-f/
 
 ├── example/                   # App demo de ejemplo
 
-├── test/                      # Pruebas unitarias
+├── tests/                      # Pruebas automáticas Flutter
 
 ├── firebase_rules/            # Reglas de seguridad
 
