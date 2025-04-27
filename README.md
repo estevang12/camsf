@@ -34,7 +34,7 @@ cams-f/
 
 ├── example/                   # App demo de ejemplo
 
-├── test/                      # Pruebas unitarias
+├── tests/                      # Pruebas automáticas Flutter
 
 ├── firebase_rules/            # Reglas de seguridad
 
