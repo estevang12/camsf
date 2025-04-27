@@ -26,7 +26,7 @@ cams-f/
 
 │   │   ├── data/              # Gestión de datos
 
-│   │   └── notifications/     # Notificaciones
+│   │   └── notifications/     # Push Notifications en Flutter
 
 │   └── features/              # Módulos de funcionalidad
 
