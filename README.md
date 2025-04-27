@@ -23,11 +23,15 @@ Este proyecto busca facilitar el desarrollo de aplicaciones móviles adaptativas
 
 🗺️ Geolocalización Precisa: Google Maps API (<5m de precisión)
 
-🛠️ Infraestructura como Código: Terraform/Pulumi para despliegues escalables
+🛠️ Infraestructura como Código (IaC): Terraform/Pulumi para despliegues escalables/ Despliegue y configuración automatizados con Terraform
+
+🧠 Servicios en la Nube: Integración nativa con Firebase y Google Maps para mejorar la experiencia del usuario.
+
+📌 Plugins y Paquetes: Uso de paquetes de terceros para optimizar el desarrollo.
 
 
 
-Estructura del Repositorio
+# Estructura del Repositorio
 
 cams-f/
 
