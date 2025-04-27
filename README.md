@@ -48,4 +48,6 @@ cams-f/
 
 /transformations/ ➔ Transformaciones (Xtend / Scripts)
 
+/firebase_config/ ➔ Ejemplo de Configuración de Firebase
+
 camsF
