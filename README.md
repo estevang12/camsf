@@ -113,7 +113,7 @@ Para configurar la infraestructura necesaria (bases de datos, servicios en la nu
    Una vez que tengas todo configurado, puedes ejecutar la aplicación en un emulador o dispositivo físico:
  
    flutter run
-# Imagen de Seguimiento de la Ruta de Enttrega
+# Imagen de Seguimiento de la Ruta de Entrega
 
 ![image](https://github.com/user-attachments/assets/6a88f3da-ae2e-4d00-a76b-d92700dbd8dd)
 
