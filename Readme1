@@ -34,5 +34,18 @@ flutter run
 📍 Notas Técnicas
 Este prototipo simula un escenario de entrega de paquetes utilizando puntos de ruta predefinidos en San Francisco.
 
-No incluye todavía integración de notificaciones push ni sincronización con Firestore (planificado como evolución futura).
+* No incluye todavía integración de notificaciones push ni sincronización con Firestore (planificado como evolución futura).
+
+* Tecnologías utilizadas
+- Flutter
+
+-Google Maps API para Flutter
+
+- Dart
+
+Licencia
+Este proyecto está licenciado bajo los términos de la licencia MIT. Consulte el archivo LICENSE para más detalles.
+
+
+
 
