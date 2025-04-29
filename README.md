@@ -113,7 +113,10 @@ Para configurar la infraestructura necesaria (bases de datos, servicios en la nu
    Una vez que tengas todo configurado, puedes ejecutar la aplicación en un emulador o dispositivo físico:
  
    flutter run
-# Para facilitar la prueba existe una version en Flutter que se subio a /prototype_package_tracking/
+   
+# Direccion del prototipo para descarga
+
+Para facilitar la prueba existe una version en Flutter que se subio a /prototype_package_tracking/
 
 # Imagen de Seguimiento de la Ruta de Entrega
 
