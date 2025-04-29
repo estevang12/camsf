@@ -69,6 +69,7 @@ cams-f/
 
 /iac/ ➔ Scripts de Infraestructura como Código
 
+ /prototype_package_tracking/ -> Prototipo en Flutter
 camsF
 
 
@@ -113,8 +114,17 @@ Para configurar la infraestructura necesaria (bases de datos, servicios en la nu
    Una vez que tengas todo configurado, puedes ejecutar la aplicación en un emulador o dispositivo físico:
  
    flutter run
+   
+# Direccion del prototipo para descarga
+
+Para facilitar la prueba existe una version en Flutter que se subio a /prototype_package_tracking/
+
 # Imagen de Seguimiento de la Ruta de Entrega
 
 ![image](https://github.com/user-attachments/assets/6a88f3da-ae2e-4d00-a76b-d92700dbd8dd)
 
    
+### Notas
+
+- La simulación utiliza datos de recorrido de paquetes sobre Google Maps en la región de San Francisco.
+- El prototipo no incluye aún la integración de notificaciones push ni sincronización con Firestore (previsto para futuras versiones).

@@ -1,0 +1,51 @@
+# 📦 Prototipo de Seguimiento de Paquetes - CAMS-F
+
+Este proyecto es un **prototipo funcional** desarrollado en **Flutter**, que ejemplifica el uso del framework **CAMS-F** para aplicaciones móviles sensibles al contexto.
+
+El prototipo implementa:
+- Visualización de ubicación en tiempo real utilizando Google Maps.
+- Seguimiento de la entrega de un paquete en un recorrido simulado en **San Francisco, California, EE.UU.**.
+- Representación dinámica del trayecto del paquete en el mapa.
+
+Este proyecto demuestra la viabilidad técnica y práctica del enfoque metodológico propuesto en la tesis doctoral.
+
+---
+
+## 🚀 Cómo correr el prototipo
+
+1. Asegúrese de tener instalado:
+   - Flutter SDK (versión 3.0 o superior recomendada).
+   - Un emulador de Android o iOS configurado o un dispositivo físico.
+
+2. Clonar el repositorio completo:
+
+```bash
+git clone https://github.com/estevang12/camsf.git
+
+3. Ir a la carpeta del prototipo:
+cd camsf/prototype_package_tracking/
+
+4. Instalar dependencias:
+flutter pub get
+
+5. Ejecutar el proyecto:
+flutter run
+
+📍 Notas Técnicas
+Este prototipo simula un escenario de entrega de paquetes utilizando puntos de ruta predefinidos en San Francisco.
+
+* No incluye todavía integración de notificaciones push ni sincronización con Firestore (planificado como evolución futura).
+
+* Tecnologías utilizadas
+- Flutter
+
+-Google Maps API para Flutter
+
+- Dart
+
+# Licencia
+Este proyecto está licenciado bajo los términos de la licencia MIT. Consulte el archivo LICENSE para más detalles.
+
+
+
+
