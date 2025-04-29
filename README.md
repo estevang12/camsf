@@ -118,3 +118,7 @@ Para configurar la infraestructura necesaria (bases de datos, servicios en la nu
 ![image](https://github.com/user-attachments/assets/6a88f3da-ae2e-4d00-a76b-d92700dbd8dd)
 
    
+### Notas
+
+- La simulación utiliza datos de recorrido de paquetes sobre Google Maps en la región de San Francisco.
+- El prototipo no incluye aún la integración de notificaciones push ni sincronización con Firestore (previsto para futuras versiones).
