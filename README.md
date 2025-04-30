@@ -70,12 +70,19 @@ cams-f/
 /iac/ ➔ Scripts de Infraestructura como Código
 
 ├── terraform/
+
 │   ├── main.tf
+
 │   ├── variables.tf
+
 │   ├── outputs.tf
+
 ├── .github/
+
 │   └── workflows/
+
 │       └── deploy.yml
+
 ├── flutter_app/ (tu código Flutter)
 
 camsF
