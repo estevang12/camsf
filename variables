@@ -1,0 +1,8 @@
+🔐 Variables necesarias en GitHub Secrets
+Agrega estas variables en Settings > Secrets del repositorio:
+
+GCP_PROJECT_ID: ID de tu proyecto en GCP.
+
+GCP_SA_KEY: JSON completo de la cuenta de servicio con permisos de deploy (descargado desde IAM).
+
+(Opcional) FIREBASE_TOKEN si usas Firebase CLI directamente.
