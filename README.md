@@ -104,11 +104,11 @@ camsF
 2. Instalar dependencias
    flutter pub get
 3. Configuración de Firebase
-a) Ve a Firebase Console, crea un nuevo proyecto y sigue las instrucciones para configurar Firebase para Flutter.
+   a) Ve a Firebase Console, crea un nuevo proyecto y sigue las instrucciones para configurar Firebase para Flutter.
 
-b) Descarga el archivo google-services.json y colócalo en el directorio android/app de tu proyecto.
+   b) Descarga el archivo google-services.json y colócalo en el directorio android/app de tu proyecto.
 
-c) Configura Firebase en el archivo firebase_options.dart.
+   c) Configura Firebase en el archivo firebase_options.dart.
 
 4. Configuración de Google Maps
    1. Obtén una clave de API de Google Maps Platform.
