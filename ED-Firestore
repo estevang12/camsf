@@ -1,0 +1,148 @@
+1. Estructura de Datos en Firestore
+(Para la app de seguimiento de conductores y paquetes)
+
+Ejemplo: Colección drivers
+// Documento dentro de colección "drivers"
+{
+  "driverId": "d123",
+  "name": "Carlos Pérez",
+  "status": "active", // active | inactive | on-delivery
+  "currentLocation": {
+    "lat": -12.0464,
+    "lng": -77.0428,
+    "timestamp": "2025-04-30T15:30:00Z"
+  },
+  "vehicle": {
+    "plate": "ABC-123",
+    "type": "van"
+  }
+}
+Ejemplo: Colección packages
+// Documento dentro de colección "packages"
+{
+  "packageId": "p789",
+  "description": "Paquete médico urgente",
+  "status": "in-transit", // pending | in-transit | delivered
+  "origin": {
+    "address": "Av. Lima 123",
+    "coordinates": { "lat": -12.045, "lng": -77.030 }
+  },
+  "destination": {
+    "address": "Av. Arequipa 456",
+    "coordinates": { "lat": -12.050, "lng": -77.050 }
+  },
+  "assignedDriverId": "d123", // Relación con driver
+  "deliveryDeadline": "2025-05-02T18:00:00Z"
+}
+2. Reglas de Seguridad en Firestore
+(Archivo firestore.rules)
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Drivers: Solo el propio conductor o admins pueden editar
+    match /drivers/{driverId} {
+      allow read: if true;
+      allow write: if request.auth != null && 
+                   (request.auth.uid == driverId || isAdmin(request.auth.token));
+    }
+
+    // Packages: Conductores asignados pueden actualizar su estado
+    match /packages/{packageId} {
+      allow read: if true;
+      allow create, delete: if isAdmin(request.auth.token);
+      allow update: if request.auth != null && 
+                     (isAdmin(request.auth.token) || 
+                      request.auth.uid == get(/databases/$(database)/documents/packages/$(packageId)).data.assignedDriverId);
+    }
+
+    // Función helper para verificar admins
+    function isAdmin(token) {
+      return token.claims.admin == true;
+    }
+  }
+}
+3. Queries en Flutter (PowerShell + Firebase)
+(Ejemplos prácticos en Dart)
+
+A. Obtener conductor activo más cercano
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:geoflutterfire/geoflutterfire.dart'; // Para queries geográficos
+
+Future<DocumentSnapshot> getNearestDriver(double lat, double lng) async {
+  final geo = Geoflutterfire();
+  final center = geo.point(latitude: lat, longitude: lng);
+  final radius = 10.0; // Radio en kilómetros
+
+  return FirebaseFirestore.instance
+      .collection('drivers')
+      .where('status', isEqualTo: 'active')
+      .orderBy('currentLocation.geohash') // Usar geohash para eficiencia
+      .limit(1)
+      .get()
+      .then((snapshot) => snapshot.docs.first);
+}
+B. Actualizar estado de un paquete
+Future<void> updatePackageStatus(String packageId, String status) async {
+  await FirebaseFirestore.instance
+      .collection('packages')
+      .doc(packageId)
+      .update({
+        'status': status,
+        'lastUpdated': FieldValue.serverTimestamp(),
+      });
+}
+4. Scripts PowerShell para Gestión de Datos
+A. Exportar datos de Firestore a JSON
+# Ejemplo: Convertir CSV a JSON y cargar a Firestore
+$csvData = Import-Csv -Path ".\datos_iniciales.csv"
+$jsonData = $csvData | ConvertTo-Json
+
+# Guardar JSON temporal
+$jsonData | Out-File -FilePath ".\temp_data.json"
+
+# Cargar a Firestore (usando Node.js o Python)
+firebase firestore:import --project "tu-proyecto-gcp" --data ".\temp_data.json"
+5. Ejemplo de Terraform para Firestore (GCP)
+(Archivo firestore.tf)
+resource "google_firestore_database" "default" {
+  project     = var.project_id
+  name        = "(default)"
+  location_id = "nam5"  # Multi-región (EE.UU.)
+  type        = "FIRESTORE_NATIVE"  # Modo Nativo (requerido para apps móviles)
+  concurrency_mode = "OPTIMISTIC"  # Para alta concurrencia
+}
+
+# Opcional: Crear colecciones iniciales con datos
+resource "google_firestore_document" "sample_driver" {
+  project     = var.project_id
+  database    = "(default)"
+  collection  = "drivers"
+  document_id = "d123"
+  fields      = jsonencode({
+    "name"   = { "stringValue": "Ana Gómez" },
+    "status" = { "stringValue": "active" }
+  })
+}
+6. Errores Comunes y Soluciones
+🚨 Error: "Missing or insufficient permissions"
+
+Solución: Verifica las reglas de seguridad en Firebase Console o usa:
+En Powershell
+firebase deploy --only firestore:rules
+🚨 Error: "Geohash not indexed"
+
+Solución: Añade un índice compuesto en Firestore:
+
+// firestore.indexes.json
+{
+  "indexes": [
+    {
+      "collectionGroup": "drivers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "currentLocation.geohash", "order": "ASCENDING" }
+      ]
+    }
+  ]
+}
