@@ -1,0 +1,100 @@
+1. Configuración de Terraform para Google Cloud (GCP)
+(Reemplazando AWS por GCP en CAMPS-X)
+
+Problemas comunes y soluciones con Terraform en GCP
+✅ Problema 1: Autenticación y permisos en GCP
+
+Error típico:
+Error: googleapi: Error 403: Permission denied on resource project "my-project".
+Solución:
+
+Usar una cuenta de servicio con los roles necesarios (roles/editor, roles/cloudfunctions.admin, etc.).
+
+Configurar las credenciales en Terraform:
+provider "google" {
+  project = "tu-proyecto-gcp"
+  region  = "us-central1"
+  credentials = file("ruta/a/tu-service-account.json")  # Archivo JSON de la cuenta de servicio
+}
+✅ Problema 2: Dependencias en recursos de GCP (ej: Cloud Functions antes de Firestore)
+
+Error típico:
+Error: Error waiting for Cloud Run Service to be ready: Resource not ready
+Solución:
+Usar depends_on para definir órdenes explícitos:
+resource "google_firestore_database" "default" {
+  project     = "tu-proyecto-gcp"
+  name        = "(default)"
+  location_id = "nam5"  # Multi-región EE.UU.
+}
+
+resource "google_cloud_run_service" "driver_service" {
+  name     = "camps-x-driver-app"
+  location = "us-central1"
+  depends_on = [google_firestore_database.default]  # ¡Asegura que Firestore esté listo primero!
+}
+✅ Problema 3: Bloqueo de estado (state locking) en GCP
+
+Solución:
+Usar Google Cloud Storage (GCS) como backend:
+terraform {
+  backend "gcs" {
+    bucket = "camps-x-tf-state"  # Crea este bucket manualmente antes
+    prefix = "terraform/state"
+  }
+}
+
+2. GitLab CI/CD con GCP y Firebase
+(Automatización de despliegues)
+
+Ejemplo de .gitlab-ci.yml para GCP + Firebase
+stages:
+  - plan
+  - deploy
+  - firebase
+
+variables:
+  TF_VAR_project_id: "tu-proyecto-gcp"
+  GOOGLE_CREDENTIALS: $GCP_SERVICE_ACCOUNT_JSON  # Variable en GitLab CI/CD
+
+terraform-plan:
+  stage: plan
+  image: hashicorp/terraform:latest
+  script:
+    - terraform init
+    - terraform plan -out=tfplan
+  artifacts:
+    paths:
+      - tfplan
+
+terraform-apply:
+  stage: deploy
+  image: hashicorp/terraform:latest
+  script:
+    - terraform apply -input=false tfplan
+  only:
+    - main  # Solo se ejecuta en la rama principal
+
+deploy-firebase:
+  stage: firebase
+  image: node:latest
+  script:
+    - npm install -g firebase-tools
+    - firebase deploy --project=$FIREBASE_PROJECT_ID --token=$FIREBASE_TOKEN
+  only:
+    - main
+Problemas comunes en CI/CD con Firebase
+🔥 Error: "Firebase: Permission denied"
+
+Solución:
+
+Generar un token de Firebase (firebase login:ci).
+
+Guardarlo como variable FIREBASE_TOKEN en GitLab.
+
+🔥 Error: "Google Cloud Functions failed to deploy"
+
+Solución:
+
+Asegurar que la cuenta de servicio tenga roles/cloudfunctions.admin.
+
