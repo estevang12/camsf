@@ -1,0 +1,50 @@
+Documentación para Terraform + GitLab CI/CD en CAMS-X
+(Inclúyelo en tu capítulo de metodología o como anexo técnico)
+
+1. Problemas comunes al implementar Terraform con AWS
+Credenciales y permisos:
+
+Error típico: Falta de permisos en los roles de IAM o credenciales mal configuradas en ~/.aws/credentials.
+
+Solución: Usar variables de entorno en GitLab CI/CD (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) y módulos de IAM restrictivos.
+
+Bloqueo de estado (state locking):
+
+Error: Conflictos al aplicar cambios en equipo (Error acquiring state lock).
+
+Solución: Usar backend S3 + DynamoDB para guardar el estado de Terraform y evitar colisiones.
+
+Dependencias implícitas:
+
+Error: Recursos que no se despliegan en el orden correcto (ej: una subred antes de la VPC).
+
+Solución: Usar depends_on explícito o herramientas como terragrunt.
+
+2. Configuración clave de GitLab CI/CD
+Pipeline ejemplo:
+stages:
+  - plan
+  - apply
+
+terraform-plan:
+  stage: plan
+  script:
+    - terraform init
+    - terraform plan -out=tfplan
+  artifacts:
+    paths:
+      - tfplan
+
+terraform-apply:
+  stage: apply
+  script:
+    - terraform apply -input=false tfplan
+  only:
+    - main  # Solo se ejecuta en merges a la rama principal
+Problemas frecuentes:
+
+Variables no inyectadas: Asegurar que las variables de Terraform (ej: region) estén declaradas en variables.tf y en GitLab CI/CD.
+
+Caché no persistente: Agregar cache: paths: [.terraform] para acelerar pipelines.
+
+
