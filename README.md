@@ -1,3 +1,31 @@
+# CAMSF – Context Aware Mobile Systems Framework
+
+Repositorio oficial del **material complementario** de la tesis doctoral.
+
+Este repositorio contiene la implementación del framework CAMSF y los artefactos de Model Driven Engineering utilizados durante la investigación:
+
+- DSL textual (Xtext)
+- DSL gráfico (Sirius)
+- Metamodelos EMF
+- Transformaciones M2T/M2M (Xtend)
+- Ejemplos y casos de estudio
+
+---
+
+## 🧩 Metamodelo CAMS (versión final)
+
+![Metamodelo CAMS](metamodelos/final/cams_final.jpg)
+
+---
+
+## 🧪 Evolución del DSL
+
+- `metamodelos/inicial/` → concepción inicial del DSL gráfico.
+- `metamodelos/final/` → versión refinada del metamodelo utilizada en la tesis.
+
+---
+
+
 # CAMSF
 CAMS-F: Context-Aware Mobile System Framework (Flutter)
 
