@@ -36,7 +36,7 @@ El repositorio representa la evolución del DSL CAMS:
 
 - Versión inicial: exploración conceptual del dominio.
 - Versión final: refinamiento del metamodelo y validación experimental.
---
+
 ## 🧩 Componentes Principales del Proyecto
 
 ### ✔ DSL Textual (Xtext)
