@@ -61,60 +61,17 @@ Este proyecto busca facilitar el desarrollo de aplicaciones móviles adaptativas
 
 # Estructura del Repositorio
 
-cams-f/
+camsf/
 
-├── lib/                       # Código principal del framework
-
-│   ├── core/                  # Módulos base
-
-│   │   ├── auth/              # Autenticación
-
-│   │   ├── data/              # Gestión de datos
-
-│   │   └── notifications/     # Notificaciones
-
-│   └── features/              # Módulos de funcionalidad
-
-│       └── tasks/             # Ejemplo: gestión de tareas
-
-├── example/                   # App demo de ejemplo
-
-├── test/                      # Pruebas unitarias
-
-├── firebase_rules/            # Reglas de seguridad
-
-├── .github/workflows/         # CI/CD con GitHub Actions
-
-├── docs/                      # Documentación adicional
-
-└── scripts/                   # Scripts de apoyo (ej: codegen)
-
-/models/ ➔ Modelos de contexto en DSL
-
-/transformations/ ➔ Transformaciones (Xtend / Scripts)
-
-/firebase_config/ ➔ Ejemplo de Configuración de Firebase
-
-/iac/ ➔ Scripts de Infraestructura como Código
-
-├── terraform/
-
-│   ├── main.tf
-
-│   ├── variables.tf
-
-│   ├── outputs.tf
-
-├── .github/
-
-│   └── workflows/
-
-│       └── deploy.yml
-
-├── flutter_app/ (tu código Flutter)
-
-camsF
-
+├── dsl/                # DSL textual (Xtext)
+├── xtext/              # Proyecto del lenguaje textual
+├── metamodelos/
+│   ├── inicial/        # Primera versión del metamodelo
+│   └── final/          # Versión refinada
+├── transformaciones/   # Transformaciones Xtend (M2T / M2M)
+├── ejemplos/           # Ejemplos y modelos visuales
+├── docs/               # Documentación
+└── flutter/            # Framework móvil (implementación)
 
 # Requisitos
 🔄 Flutter (3.0 o superior)
