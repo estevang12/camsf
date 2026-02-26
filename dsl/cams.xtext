@@ -1,0 +1,62 @@
+/cams.xtext
+grammar org.camsf.tracker.TrackerDSL with org.eclipse.xtext.common.Terminals
+generate trackerDSL "http://www.camsf.org/TrackerDSL"
+Model:
+    objects+=AwareObject*;
+
+AwareObject:
+    'awareobject' name=ID '{'
+        'category' category=Category
+        'contextfeatures' '{' 
+            features+=ContextFeature+ 
+        '}'
+        ('notifications' '{' notifications+=Notification+ '}')?
+    '}';
+
+Category:
+    'MOBILEOBJECT' | 'FIXEDOBJECT';
+
+ContextFeature:
+    'contextfeature' name=ID '{'
+        'relevance' relevance=Relevance
+        'rule' ruleName=ID
+        'abstractsensors' '{' sensors+=AbstractSensor+ '}'
+    '}';
+
+AbstractSensor:
+    'abstractsensor' type=SensorType '{'
+        'concretesensor' concreteType=ConcreteSensorType '{'
+            'executiontype' execution=ExecutionType
+            (frequency=UpdateFrequency | range=BeaconRange)?
+            'presitionmargin' '{'
+                'Vi' vi=INT
+                'Vf' vf=INT
+            '}'
+        '}'
+    '}';
+
+Notification:
+    'notification' type=NotificationType '{'
+        'to' recipient=STRING
+    '}';
+
+enum SensorType:
+    GPS | Beacons | RFID;
+
+enum ConcreteSensorType:
+    Active | Passive;
+
+enum ExecutionType:
+    Active | Passive;
+
+enum Relevance:
+    High | Medium | Low;
+
+enum NotificationType:
+    SMS | EMAIL | PUSH;
+
+UpdateFrequency:
+    'update_frequency' value=INT;
+
+BeaconRange:
+    'beacon_range' value=INT;	
