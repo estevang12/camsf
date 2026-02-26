@@ -1,0 +1,15 @@
+# Ejemplos y Casos de Estudio
+
+Esta carpeta contiene ejemplos utilizados para validar el DSL CAMS.
+
+Incluye:
+
+- Casos de estudio definidos en el DSL gráfico.
+- Modelos ejemplo utilizados durante la investigación.
+
+Los ejemplos muestran cómo definir:
+
+- Aware Objects
+- Context Features
+- Sensores
+- Reglas y servicios
