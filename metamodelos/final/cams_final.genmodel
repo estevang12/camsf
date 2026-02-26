@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/cams2024/src-gen" creationIcons="false" editDirectory="/cams2024.edit/src-gen"
+    editorDirectory="/cams2024.editor/src-gen" modelPluginID="cams2024" modelName="Cams2024"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>cams2024.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Cams2024" disposableProviderFactory="true" ecorePackage="cams2024.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="cams2024.ecore#//ServicesType">
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//ServicesType/NotDefined"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//ServicesType/Service1"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//ServicesType/Service2"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//ServicesType/Azure_Maps"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="cams2024.ecore#//Categ_value">
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//Categ_value/User"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//Categ_value/MobileObject"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//Categ_value/Environment"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="cams2024.ecore#//RelValue">
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//RelValue/Low"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//RelValue/Medium"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//RelValue/High"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="cams2024.ecore#//SensorType">
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//SensorType/NotDefined"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//SensorType/GPS"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//SensorType/Beacons"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//SensorType/ManualInput"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//SensorType/ProgramMonitory"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="cams2024.ecore#//ConfigurationType">
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//ConfigurationType/NotDefined"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//ConfigurationType/Active"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//ConfigurationType/Pasive"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//ConfigurationType/Default"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="cams2024.ecore#//ExecutionType">
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//ExecutionType/NotDefined"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//ExecutionType/Active"/>
+      <genEnumLiterals ecoreEnumLiteral="cams2024.ecore#//ExecutionType/Pasive"/>
+    </genEnums>
+    <genClasses ecoreClass="cams2024.ecore#//Metamodel">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//Metamodel/awareobject"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//Metamodel/contextfeature"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//Metamodel/abstractsensor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//Metamodel/relevancevalue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//Metamodel/categoryvalue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//Metamodel/rule"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//Metamodel/concretsensor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//Metamodel/presitionmarginvalue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//Metamodel/service"/>
+    </genClasses>
+    <genClasses ecoreClass="cams2024.ecore#//AwareObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//AwareObject/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//AwareObject/has_contextfeature"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//AwareObject/belong_categoryvalue"/>
+    </genClasses>
+    <genClasses ecoreClass="cams2024.ecore#//ContextFeature">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cams2024.ecore#//ContextFeature/observer"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//ContextFeature/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//ContextFeature/Latitud"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//ContextFeature/Longitud"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//ContextFeature/has_abstractsensor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//ContextFeature/Has_relevancevalue"/>
+    </genClasses>
+    <genClasses ecoreClass="cams2024.ecore#//AbstractSensor">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//AbstractSensor/sensorType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//AbstractSensor/Corresponds_to_concretsensor"/>
+    </genClasses>
+    <genClasses ecoreClass="cams2024.ecore#//RelevanceValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//RelevanceValue/value_or_range"/>
+    </genClasses>
+    <genClasses ecoreClass="cams2024.ecore#//CategoryValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//CategoryValue/value_of_categ"/>
+    </genClasses>
+    <genClasses ecoreClass="cams2024.ecore#//Rule">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cams2024.ecore#//Rule/executes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//Rule/rule_description"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference cams2024.ecore#//Rule/update"/>
+    </genClasses>
+    <genClasses ecoreClass="cams2024.ecore#//ConcretSensor">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//ConcretSensor/value_of_configuratio_type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//ConcretSensor/ExecutionType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference cams2024.ecore#//ConcretSensor/presitionmarginvalue"/>
+    </genClasses>
+    <genClasses ecoreClass="cams2024.ecore#//PresitionMarginValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//PresitionMarginValue/V1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//PresitionMarginValue/VF"/>
+    </genClasses>
+    <genClasses ecoreClass="cams2024.ecore#//Service">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//Service/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute cams2024.ecore#//Service/type"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="cams2024" nsURI="http://www.example.org/cams2024" nsPrefix="cams2024">
+  <eClassifiers xsi:type="ecore:EClass" name="Metamodel">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="awareobject" upperBound="-1"
+        eType="#//AwareObject" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="contextfeature" upperBound="-1"
+        eType="#//ContextFeature" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="abstractsensor" upperBound="-1"
+        eType="#//AbstractSensor" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relevancevalue" upperBound="-1"
+        eType="#//RelevanceValue" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="categoryvalue" upperBound="-1"
+        eType="#//CategoryValue" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rule" upperBound="-1" eType="#//Rule"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="concretsensor" upperBound="-1"
+        eType="#//ConcretSensor" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="presitionmarginvalue" upperBound="-1"
+        eType="#//PresitionMarginValue" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="service" upperBound="-1"
+        eType="#//Service" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AwareObject">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="has_contextfeature" upperBound="-1"
+        eType="#//ContextFeature" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="belong_categoryvalue" upperBound="-1"
+        eType="#//CategoryValue" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContextFeature">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="observer" lowerBound="1"
+        upperBound="-1" eType="#//Rule"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Latitud" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"
+        defaultValueLiteral="0.0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Longitud" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Double"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="has_abstractsensor" upperBound="-1"
+        eType="#//AbstractSensor" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Has_relevancevalue" upperBound="-1"
+        eType="#//RelevanceValue" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractSensor">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sensorType" eType="#//SensorType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Corresponds_to_concretsensor"
+        upperBound="-1" eType="#//ConcretSensor" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RelevanceValue">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value_or_range" eType="#//RelValue"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CategoryValue">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value_of_categ" eType="#//Categ_value"
+        defaultValueLiteral="User"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Rule">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="executes" eType="#//Service"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rule_description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="update" upperBound="-1"
+        eType="#//ContextFeature"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConcretSensor">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value_of_configuratio_type"
+        eType="#//ConfigurationType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ExecutionType" eType="#//ExecutionType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="presitionmarginvalue" upperBound="-1"
+        eType="#//PresitionMarginValue" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PresitionMarginValue">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="V1" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Double"
+        defaultValueLiteral="0.0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="VF" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Double"
+        defaultValueLiteral="0.0"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Service">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//ServicesType"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ServicesType">
+    <eLiterals name="NotDefined"/>
+    <eLiterals name="Service1" value="1"/>
+    <eLiterals name="Service2" value="2"/>
+    <eLiterals name="Azure_Maps" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Categ_value">
+    <eLiterals name="User"/>
+    <eLiterals name="MobileObject" value="1"/>
+    <eLiterals name="Environment" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="RelValue">
+    <eLiterals name="Low"/>
+    <eLiterals name="Medium" value="1"/>
+    <eLiterals name="High" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="SensorType">
+    <eLiterals name="NotDefined"/>
+    <eLiterals name="GPS" value="1"/>
+    <eLiterals name="Beacons" value="2"/>
+    <eLiterals name="ManualInput" value="3"/>
+    <eLiterals name="ProgramMonitory" value="4"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ConfigurationType">
+    <eLiterals name="NotDefined"/>
+    <eLiterals name="Active" value="1"/>
+    <eLiterals name="Pasive" value="2"/>
+    <eLiterals name="Default" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ExecutionType">
+    <eLiterals name="NotDefined"/>
+    <eLiterals name="Active" value="1"/>
+    <eLiterals name="Pasive" value="2"/>
+  </eClassifiers>
+</ecore:EPackage>
