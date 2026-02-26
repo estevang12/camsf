@@ -175,6 +175,10 @@ Aplicación Flutter
 - Flutter SDK
 
 ---
+## 🎓 Contribución Principal
+
+La principal contribución de esta investigación es la definición y validación de un enfoque Model-Driven Development para sistemas móviles sensibles al contexto, mediante la creación de un DSL específico de dominio, su metamodelo asociado y un proceso automatizado de transformaciones que permite la generación de aplicaciones Flutter context-aware.
+----
 
 ## 👨‍🔬 Autor
 
