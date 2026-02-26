@@ -1,0 +1,72 @@
+grammar org.example.camsdsl.MyDsl with org.eclipse.xtext.common.Terminals
+
+import "http://www.example.org/cams2024" as cams2024
+
+Model:
+    elements += cams2024::AwareObject*;
+
+cams2024::AwareObject:
+    'awareobject'
+    'name' name=cams2024::ObjectType
+    'value' value=cams2024::ObjectType
+    ('contextfeatures' '{' contextfeatures += cams2024::ContextFeature+ '}')
+    ('category' category=[cams2024::CategoryValue])
+;
+
+cams2024::ContextFeature:
+    'contextfeature'
+    'name' name=cams2024::ObjectType
+    'value' value=cams2024::GenericObject
+    ('relevance' relevance=[cams2024::RelevanceValue])
+    ('rule' rule=[cams2024::Rule])?
+    'sensor' sensor=cams2024::AbstractSensor
+;
+
+cams2024::CategoryValue:
+    'categoryvalue'
+    'value_of_categ' value_of_categ=cams2024::Categ_Value
+    'value' value=cams2024::GenericObject
+;
+
+cams2024::RelevanceValue:
+    'relevancevalue'
+    'value_of_relevance' value_of_relevance=cams2024::Relevance_Value
+    'value' value=cams2024::GenericObject
+;
+
+cams2024::Rule:
+    'rule'
+    'description' rule_description=STRING
+    ('executes' service=[cams2024::Service])
+    'value' value=cams2024::GenericObject
+    ('observer' observer=[cams2024::ContextFeature])?
+    ('update' '{' update += [cams2024::ContextFeature]+ '}')
+;
+
+cams2024::Service:
+    'service'
+    'name' name=cams2024::ObjectType
+    'service_type' service_Type=cams2024::ServiceType
+    'value' value=cams2024::GenericObject
+;
+
+cams2024::AbstractSensor:
+    'abstractsensor'
+    'sensorType' sensorType=cams2024::SensorType
+    ('concrete' '{' concrete=cams2024::ConcreteSensor '}')
+;
+
+cams2024::ConcreteSensor:
+    'concretesensor'
+    'configType' value_of_config_type=cams2024::ConfigurationType
+    'executionType' value_of_executionType=cams2024::ExecutionType
+    ('margin' '{' margin=cams2024::PresitionMarginValue '}')
+;
+
+cams2024::PresitionMarginValue:
+    'presitionmargin'
+    'vI' vI=DOUBLE
+    'vF' vF=DOUBLE
+;
+
+
