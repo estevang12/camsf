@@ -15,7 +15,25 @@ El proyecto integra:
 El objetivo es facilitar la creación de aplicaciones móviles adaptativas mediante modelos de alto nivel.
 
 ---
+## 🧭 Arquitectura Conceptual de CAMSF
 
+El framework sigue un flujo dirigido por modelos (MDD):
+
+DSL textual (Xtext)
+        ↓
+Metamodelo (Ecore / Sirius)
+        ↓
+Modelos de ejemplo (Study Cases)
+        ↓
+Transformaciones Xtend (M2T)
+        ↓
+Generación de código Flutter
+---
+El repositorio representa la evolución del DSL CAMS:
+
+- Versión inicial: exploración conceptual del dominio.
+- Versión final: refinamiento del metamodelo y validación experimental.
+--
 ## 🧩 Componentes Principales del Proyecto
 
 ### ✔ DSL Textual (Xtext)
