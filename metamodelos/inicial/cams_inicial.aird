@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cams2024="http://www.example.org/cams2024" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_a_nG4JmOEey0o8hh02ms7Q" selectedViews="_wrXZsJ8VEeyXo_Lrej8k1g" version="14.5.1.202106111100">
+    <semanticResources>new.cams2024</semanticResources>
+    <semanticResources>platform:/resource/cams2025.design/description/cams2025.odesign</semanticResources>
+    <semanticResources>environment:/viewpoint</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_wrXZsJ8VEeyXo_Lrej8k1g">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_OdMOQJ8XEeyXo_Lrej8k1g" name="new cams2024_diagram" repPath="#_OcfDoJ8XEeyXo_Lrej8k1g" changeId="75ac8357-3f69-462c-92a4-7a92ee9a0ef4">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']"/>
+        <target xmi:type="cams2024:Metamodel" href="new.cams2024#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_OcfDoJ8XEeyXo_Lrej8k1g">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Ofi-sJ8XEeyXo_Lrej8k1g" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Ofi-sZ8XEeyXo_Lrej8k1g" type="Sirius" element="_OcfDoJ8XEeyXo_Lrej8k1g" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_KeQ4cKC1Eeye1P-RIatgxQ" type="2001" element="_KdgDcaC1Eeye1P-RIatgxQ">
+          <children xmi:type="notation:Node" xmi:id="_KendwKC1Eeye1P-RIatgxQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_KendwaC1Eeye1P-RIatgxQ" x="-46" y="42"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lg6nQKDAEeyTr6mJh4tRGQ" type="3005" element="_LgFg0aDAEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Lg6nQaDAEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lg6nQqDAEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KeQ4caC1Eeye1P-RIatgxQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KeQ4cqC1Eeye1P-RIatgxQ" x="-132" y="120" width="48" height="41"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Kex10KC1Eeye1P-RIatgxQ" type="2001" element="_Kd5FAaC1Eeye1P-RIatgxQ">
+          <children xmi:type="notation:Node" xmi:id="_Keyc4KC1Eeye1P-RIatgxQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Keyc4aC1Eeye1P-RIatgxQ" x="-25" y="42"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lg6nQ6DAEeyTr6mJh4tRGQ" type="3005" element="_LgODsaDAEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Lg6nRKDAEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lg6nRaDAEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Kex10aC1Eeye1P-RIatgxQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Kex10qC1Eeye1P-RIatgxQ" x="-84" y="620" width="48" height="41"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Keyc4qC1Eeye1P-RIatgxQ" type="2001" element="_Kd66MqC1Eeye1P-RIatgxQ">
+          <children xmi:type="notation:Node" xmi:id="_KezD8KC1Eeye1P-RIatgxQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_KezD8aC1Eeye1P-RIatgxQ" x="-44" y="42"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Lg7OUKDAEeyTr6mJh4tRGQ" type="3005" element="_LgVYcaDAEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Lg7OUaDAEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lg7OUqDAEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Keyc46C1Eeye1P-RIatgxQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Keyc5KC1Eeye1P-RIatgxQ" x="480" y="144" width="48" height="41"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TStUIKC2EeyTr6mJh4tRGQ" type="2001" element="_TR40wqC2EeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_TS3FIKC2EeyTr6mJh4tRGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TS3FIaC2EeyTr6mJh4tRGQ" x="-32" y="52"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oVnhsKDAEeyTr6mJh4tRGQ" type="3005" element="_oU5wAKDAEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_oVnhsaDAEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oVnhsqDAEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_TStUIaC2EeyTr6mJh4tRGQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TStUIqC2EeyTr6mJh4tRGQ" x="96" y="115" width="48" height="51"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TS3sMKC2EeyTr6mJh4tRGQ" type="2001" element="_TShG4aC2EeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_TS6vgKC2EeyTr6mJh4tRGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TS6vgaC2EeyTr6mJh4tRGQ" x="-42" y="52"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oVov0KDAEeyTr6mJh4tRGQ" type="3005" element="_oVBEwaDAEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_oVov0aDAEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oVov0qDAEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_TS3sMaC2EeyTr6mJh4tRGQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TS3sMqC2EeyTr6mJh4tRGQ" x="157" y="600" width="48" height="51"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_TS7WkKC2EeyTr6mJh4tRGQ" type="2001" element="_TSiVAKC2EeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_TS7Wk6C2EeyTr6mJh4tRGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TS7WlKC2EeyTr6mJh4tRGQ" x="49" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oVov06DAEeyTr6mJh4tRGQ" type="3005" element="_oVNSAKDAEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_oVov1KDAEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oVov1aDAEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_TS7WkaC2EeyTr6mJh4tRGQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TS7WkqC2EeyTr6mJh4tRGQ" x="696" y="139" width="48" height="51"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a7iswKDBEeyTr6mJh4tRGQ" type="2001" element="_a6824qDBEeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_a7isw6DBEeyTr6mJh4tRGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7isxKDBEeyTr6mJh4tRGQ" x="49"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a7qBgKDBEeyTr6mJh4tRGQ" type="3005" element="_a7HO8KDBEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a7qBgaDBEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7qBgqDBEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a7iswaDBEeyTr6mJh4tRGQ" fontName="Segoe UI" fontHeight="12" underline="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7iswqDBEeyTr6mJh4tRGQ" x="720" y="312" width="48" height="42"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a7ozYKDBEeyTr6mJh4tRGQ" type="2001" element="_a7JEIKDBEeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_a7ozY6DBEeyTr6mJh4tRGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7ozZKDBEeyTr6mJh4tRGQ" x="49"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a7qokKDBEeyTr6mJh4tRGQ" type="3005" element="_a7Y7wKDBEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a7qokaDBEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7qokqDBEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a7ozYaDBEeyTr6mJh4tRGQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7ozYqDBEeyTr6mJh4tRGQ" x="240" y="763" width="48" height="42"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_a7pacKDBEeyTr6mJh4tRGQ" type="2001" element="_a7Zi0KDBEeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_a7pac6DBEeyTr6mJh4tRGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_a7padKDBEeyTr6mJh4tRGQ" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a7rPoKDBEeyTr6mJh4tRGQ" type="3005" element="_a7gQgKDBEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_a7rPoaDBEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7rPoqDBEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_a7pacaDBEeyTr6mJh4tRGQ" fontName="Segoe UI" fontHeight="12" italic="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a7pacqDBEeyTr6mJh4tRGQ" x="157" y="271" width="48" height="42"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_SsYyoKDEEeyTr6mJh4tRGQ" type="2001" element="_SsHF0qDEEeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_SsZZsKDEEeyTr6mJh4tRGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_SsZZsaDEEeyTr6mJh4tRGQ" x="-35" y="49"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_SsbO4KDEEeyTr6mJh4tRGQ" type="3005" element="_SsKwMKDEEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_SsbO4aDEEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SsbO4qDEEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_SsYyoaDEEeyTr6mJh4tRGQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SsYyoqDEEeyTr6mJh4tRGQ" x="588" y="259" width="48" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_SsZZsqDEEeyTr6mJh4tRGQ" type="2001" element="_SsLXQaDEEeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_SsZZtaDEEeyTr6mJh4tRGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_SsZZtqDEEeyTr6mJh4tRGQ" x="-75" y="49"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_SsbO46DEEeyTr6mJh4tRGQ" type="3005" element="_SsPosKDEEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_SsbO5KDEEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SsbO5aDEEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_SsZZs6DEEeyTr6mJh4tRGQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SsZZtKDEEeyTr6mJh4tRGQ" x="-61" y="760" width="48" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_SsZZt6DEEeyTr6mJh4tRGQ" type="2001" element="_SsQPwaDEEeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_Ssan0KDEEeyTr6mJh4tRGQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Ssan0aDEEeyTr6mJh4tRGQ" x="-36" y="49"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_SsbO5qDEEeyTr6mJh4tRGQ" type="3005" element="_SsXkgKDEEeyTr6mJh4tRGQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_SsbO56DEEeyTr6mJh4tRGQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SsbO6KDEEeyTr6mJh4tRGQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_SsZZuKDEEeyTr6mJh4tRGQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SsZZuaDEEeyTr6mJh4tRGQ" x="-85" y="240" width="48" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_cJDe8KFUEeyyAZdmYuw_-w" type="2001" element="_cI2DkqFUEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_cJEGAKFUEeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_cJEGAaFUEeyyAZdmYuw_-w" x="65" y="27"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cJN3AqFUEeyyAZdmYuw_-w" type="3005" element="_cI8KMKFUEeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_cJN3A6FUEeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cJN3BKFUEeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cJDe8aFUEeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cJDe8qFUEeyyAZdmYuw_-w" x="231" y="120" width="64" height="55"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_cJNP8KFUEeyyAZdmYuw_-w" type="2001" element="_cI8KMqFUEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_cJNP86FUEeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_cJNP9KFUEeyyAZdmYuw_-w" x="-24" y="79"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cJN3BaFUEeyyAZdmYuw_-w" type="3005" element="_cI-mcKFUEeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_cJN3BqFUEeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cJN3B6FUEeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cJNP8aFUEeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cJNP8qFUEeyyAZdmYuw_-w" x="395" y="600" width="73" height="61"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_cJNP9aFUEeyyAZdmYuw_-w" type="2001" element="_cI_NgaFUEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_cJN3AKFUEeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_cJN3AaFUEeyyAZdmYuw_-w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cJOeEKFUEeyyAZdmYuw_-w" type="3005" element="_cJAboKFUEeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_cJOeEaFUEeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cJOeEqFUEeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cJNP9qFUEeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cJNP96FUEeyyAZdmYuw_-w" x="863" y="165" width="63" height="55"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_joKfYqFVEeyyAZdmYuw_-w" type="2001" element="_jmK7UKFVEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_joKfZaFVEeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_joKfZqFVEeyyAZdmYuw_-w" x="-12" y="-18"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_joKfcaFVEeyyAZdmYuw_-w" type="3005" element="_jmNXkKFVEeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_joKfcqFVEeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_joKfc6FVEeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_joKfY6FVEeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_joKfZKFVEeyyAZdmYuw_-w" x="-108" y="12" width="48" height="45"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_joKfZ6FVEeyyAZdmYuw_-w" type="2001" element="_jmN-oaFVEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_joKfaqFVEeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_joKfa6FVEeyyAZdmYuw_-w" x="-38" y="-14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_joKfdKFVEeyyAZdmYuw_-w" type="3005" element="_jmPz0KFVEeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_joKfdaFVEeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_joKfdqFVEeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_joKfaKFVEeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_joKfaaFVEeyyAZdmYuw_-w" x="-85" y="478" width="48" height="45"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_joKfbKFVEeyyAZdmYuw_-w" type="2001" element="_jmQa4aFVEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_joKfb6FVEeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_joKfcKFVEeyyAZdmYuw_-w" y="-18"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_joKfd6FVEeyyAZdmYuw_-w" type="3005" element="_jmRpAKFVEeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_joKfeKFVEeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_joKfeaFVEeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_joKfbaFVEeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_joKfbqFVEeyyAZdmYuw_-w" x="469" y="36" width="48" height="45"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_CTb9QKF_EeyyAZdmYuw_-w" type="2001" element="_CRYu1qF_EeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_CTb9Q6F_EeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CTb9RKF_EeyyAZdmYuw_-w" x="-41" y="-14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CTb9T6F_EeyyAZdmYuw_-w" type="3005" element="_CRfcgKF_EeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CTb9UKF_EeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CTb9UaF_EeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_CTb9QaF_EeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CTb9QqF_EeyyAZdmYuw_-w" x="60" width="48" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_CTb9RaF_EeyyAZdmYuw_-w" type="2001" element="_CRgDkaF_EeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_CTb9SKF_EeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CTb9SaF_EeyyAZdmYuw_-w" x="-74" y="-14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CTb9UqF_EeyyAZdmYuw_-w" type="3005" element="_CRgDkqF_EeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CTb9U6F_EeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CTb9VKF_EeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_CTb9RqF_EeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CTb9R6F_EeyyAZdmYuw_-w" x="119" y="480" width="48" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_CTb9SqF_EeyyAZdmYuw_-w" type="2001" element="_CRgqoKF_EeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_CTb9TaF_EeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CTb9TqF_EeyyAZdmYuw_-w" x="-57" y="-14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_CTb9VaF_EeyyAZdmYuw_-w" type="3005" element="_CRgqoaF_EeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_CTb9VqF_EeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CTb9V6F_EeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_CTb9S6F_EeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CTb9TKF_EeyyAZdmYuw_-w" x="612" y="23" width="48" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q1aVIKGVEeyyAZdmYuw_-w" type="2001" element="_q1QkIqGVEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_q1aVI6GVEeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q1aVJKGVEeyyAZdmYuw_-w" x="-29" y="-14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q1emmqGVEeyyAZdmYuw_-w" type="3005" element="_q1QkI6GVEeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q1emm6GVEeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1emnKGVEeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q1aVIaGVEeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1aVIqGVEeyyAZdmYuw_-w" x="239" y="9" width="48" height="51"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q1emkKGVEeyyAZdmYuw_-w" type="2001" element="_q1QkJaGVEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_q1emk6GVEeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q1emlKGVEeyyAZdmYuw_-w" x="-40" y="-14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q1emnaGVEeyyAZdmYuw_-w" type="3005" element="_q1QkJqGVEeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q1emnqGVEeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1emn6GVEeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q1emkaGVEeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1emkqGVEeyyAZdmYuw_-w" x="348" y="478" width="48" height="51"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_q1emlaGVEeyyAZdmYuw_-w" type="2001" element="_q1QkKKGVEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_q1emmKGVEeyyAZdmYuw_-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q1emmaGVEeyyAZdmYuw_-w" x="-64" y="-14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q1emoKGVEeyyAZdmYuw_-w" type="3005" element="_q1QkKaGVEeyyAZdmYuw_-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_q1emoaGVEeyyAZdmYuw_-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1emoqGVEeyyAZdmYuw_-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_q1emlqGVEeyyAZdmYuw_-w" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q1eml6GVEeyyAZdmYuw_-w" x="816" y="33" width="48" height="51"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_98494KH5EeyKpJ-Bif4Iag" type="Note" fontName="Segoe UI" description="STUDY CASE 1" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_98494aH5EeyKpJ-Bif4Iag" source="specificStyles">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_98494qH5EeyKpJ-Bif4Iag" key="verticalAlignment" value="8"/>
+          </eAnnotations>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_98495qH5EeyKpJ-Bif4Iag" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_984956H5EeyKpJ-Bif4Iag" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_984946H5EeyKpJ-Bif4Iag" textAlignment="Center"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_98495KH5EeyKpJ-Bif4Iag"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_98495aH5EeyKpJ-Bif4Iag" x="-24" y="329"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_DF4Q8KH6EeyKpJ-Bif4Iag" type="Note" fontName="Segoe UI" description="STUDY CASE 2" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DF4Q8aH6EeyKpJ-Bif4Iag" source="specificStyles">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DF4Q8qH6EeyKpJ-Bif4Iag" key="verticalAlignment" value="8"/>
+          </eAnnotations>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_DF4Q9qH6EeyKpJ-Bif4Iag" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_DF4Q96H6EeyKpJ-Bif4Iag" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_DF4Q86H6EeyKpJ-Bif4Iag" textAlignment="Center"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_DF4Q9KH6EeyKpJ-Bif4Iag"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DF4Q9aH6EeyKpJ-Bif4Iag" x="741" y="204"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Ljq8oKH6EeyKpJ-Bif4Iag" type="Note" fontName="Segoe UI" description="STUDY CASE 3" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ljq8oaH6EeyKpJ-Bif4Iag" source="specificStyles">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ljq8oqH6EeyKpJ-Bif4Iag" key="verticalAlignment" value="8"/>
+          </eAnnotations>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ljq8pqH6EeyKpJ-Bif4Iag" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_LjvOEKH6EeyKpJ-Bif4Iag" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_Ljq8o6H6EeyKpJ-Bif4Iag" textAlignment="Center"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_Ljq8pKH6EeyKpJ-Bif4Iag"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ljq8paH6EeyKpJ-Bif4Iag" x="105" y="825"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_l-ts1KIEEeyKpJ-Bif4Iag" type="2001" element="_l92J3qIEEeyKpJ-Bif4Iag">
+          <children xmi:type="notation:Node" xmi:id="_l-ts16IEEeyKpJ-Bif4Iag" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_l-ts2KIEEeyKpJ-Bif4Iag" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_93AXaKIEEeyKpJ-Bif4Iag" type="3005" element="_92DVEKIEEeyKpJ-Bif4Iag">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_93AXaaIEEeyKpJ-Bif4Iag" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_93AXaqIEEeyKpJ-Bif4Iag"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_l-ts1aIEEeyKpJ-Bif4Iag" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l-ts1qIEEeyKpJ-Bif4Iag" x="275" y="240" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_l-ts2aIEEeyKpJ-Bif4Iag" type="2001" element="_l92J36IEEeyKpJ-Bif4Iag">
+          <children xmi:type="notation:Node" xmi:id="_l-ts3KIEEeyKpJ-Bif4Iag" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_l-ts3aIEEeyKpJ-Bif4Iag" x="-58" y="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_93AXa6IEEeyKpJ-Bif4Iag" type="3005" element="_92DVEqIEEeyKpJ-Bif4Iag">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_93AXbKIEEeyKpJ-Bif4Iag" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_93AXbaIEEeyKpJ-Bif4Iag"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_l-ts2qIEEeyKpJ-Bif4Iag" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l-ts26IEEeyKpJ-Bif4Iag" x="527" y="760" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_l-ts3qIEEeyKpJ-Bif4Iag" type="2001" element="_l92J4KIEEeyKpJ-Bif4Iag">
+          <children xmi:type="notation:Node" xmi:id="_l-ts4aIEEeyKpJ-Bif4Iag" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_l-ts4qIEEeyKpJ-Bif4Iag" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_93AXbqIEEeyKpJ-Bif4Iag" type="3005" element="_92D8IKIEEeyKpJ-Bif4Iag">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_93AXb6IEEeyKpJ-Bif4Iag" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_93AXcKIEEeyKpJ-Bif4Iag"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_l-ts36IEEeyKpJ-Bif4Iag" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l-ts4KIEEeyKpJ-Bif4Iag" x="936" y="249" width="20" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xAK04KJeEeyb3q7VM57btw" type="2001" element="_w9488KJeEeyb3q7VM57btw">
+          <children xmi:type="notation:Node" xmi:id="_xAK046JeEeyb3q7VM57btw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xAK05KJeEeyb3q7VM57btw" x="-110"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xAPGUKJeEeyb3q7VM57btw" type="3005" element="_w-EjIKJeEeyb3q7VM57btw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xAPGUaJeEeyb3q7VM57btw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xAPGUqJeEeyb3q7VM57btw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xAK04aJeEeyb3q7VM57btw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xAK04qJeEeyb3q7VM57btw" x="744" y="436" width="48" height="45"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_v8f_IKJjEeyb3q7VM57btw" type="2001" element="_vH3dMKJjEeyb3q7VM57btw">
+          <children xmi:type="notation:Node" xmi:id="_v8gmMKJjEeyb3q7VM57btw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v8gmMaJjEeyb3q7VM57btw" x="-62" y="-22"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_v8h0UKJjEeyb3q7VM57btw" type="3005" element="_vH3dMaJjEeyb3q7VM57btw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_v8h0UaJjEeyb3q7VM57btw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v8h0UqJjEeyb3q7VM57btw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_v8f_IaJjEeyb3q7VM57btw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v8f_IqJjEeyb3q7VM57btw" x="908" y="435" width="48" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_xknabKJoEeyb3q7VM57btw" type="2001" element="_xi474KJoEeyb3q7VM57btw">
+          <children xmi:type="notation:Node" xmi:id="_xknab6JoEeyb3q7VM57btw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xknacKJoEeyb3q7VM57btw" x="-48" y="42"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_xkwkIKJoEeyb3q7VM57btw" type="3005" element="_xi474aJoEeyb3q7VM57btw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_xkwkIaJoEeyb3q7VM57btw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xkwkIqJoEeyb3q7VM57btw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_xknabaJoEeyb3q7VM57btw" fontName="Segoe UI" fontHeight="12" italic="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xknabqJoEeyb3q7VM57btw" x="767" y="696" width="48" height="41"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_5QvTqKLEEeyb3q7VM57btw" type="2001" element="_5Pt_4KLEEeyb3q7VM57btw">
+          <children xmi:type="notation:Node" xmi:id="_5QvTq6LEEeyb3q7VM57btw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_5QvTrKLEEeyb3q7VM57btw" x="-78" y="-22"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5QvTraLEEeyb3q7VM57btw" type="3005" element="_5P4X8KLEEeyb3q7VM57btw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_5QvTrqLEEeyb3q7VM57btw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5QvTr6LEEeyb3q7VM57btw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_5QvTqaLEEeyb3q7VM57btw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5QvTqqLEEeyb3q7VM57btw" x="1068" y="449" width="48" height="51"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_A1nykKLLEeyajOSSz9kxww" type="2001" element="_AzqDsKLLEeyajOSSz9kxww">
+          <children xmi:type="notation:Node" xmi:id="_A1nyk6LLEeyajOSSz9kxww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_A1nylKLLEeyajOSSz9kxww" x="49" y="15"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_A1vHUKLLEeyajOSSz9kxww" type="3005" element="_AzuVIKLLEeyajOSSz9kxww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_A1vHUaLLEeyajOSSz9kxww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A1vHUqLLEeyajOSSz9kxww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_A1nykaLLEeyajOSSz9kxww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A1nykqLLEeyajOSSz9kxww" x="984" y="570" width="48" height="51"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_XynYiKPsEeyajOSSz9kxww" type="2001" element="_XxFHYKPsEeyajOSSz9kxww">
+          <children xmi:type="notation:Node" xmi:id="_XynYi6PsEeyajOSSz9kxww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XynYjKPsEeyajOSSz9kxww" x="-56" y="49"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XynYjaPsEeyajOSSz9kxww" type="3005" element="_XxO4YKPsEeyajOSSz9kxww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_XynYjqPsEeyajOSSz9kxww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XynYj6PsEeyajOSSz9kxww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_XynYiaPsEeyajOSSz9kxww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XynYiqPsEeyajOSSz9kxww" x="922" y="668" width="48" height="48"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_yhkVEKPxEeyajOSSz9kxww" type="2001" element="_ygRUkKPxEeyajOSSz9kxww">
+          <children xmi:type="notation:Node" xmi:id="_yhkVE6PxEeyajOSSz9kxww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yhk8IKPxEeyajOSSz9kxww" x="49" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_yhk8IaPxEeyajOSSz9kxww" type="3005" element="_ygRUkaPxEeyajOSSz9kxww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_yhk8IqPxEeyajOSSz9kxww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yhk8I6PxEeyajOSSz9kxww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_yhkVEaPxEeyajOSSz9kxww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yhkVEqPxEeyajOSSz9kxww" x="1152" y="706" width="48" height="42"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_4dvDoKQUEeydnfyZ9RZmww" type="2001" element="_4a3V0KQUEeydnfyZ9RZmww">
+          <children xmi:type="notation:Node" xmi:id="_4dyuAKQUEeydnfyZ9RZmww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4dyuAaQUEeydnfyZ9RZmww" x="88" y="36"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4d40oKQUEeydnfyZ9RZmww" type="3005" element="_4a8OUKQUEeydnfyZ9RZmww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_4d40oaQUEeydnfyZ9RZmww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4d40oqQUEeydnfyZ9RZmww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_4dvDoaQUEeydnfyZ9RZmww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4dvDoqQUEeydnfyZ9RZmww" x="1212" y="522" width="87" height="93"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_rwJkcKQZEeydnfyZ9RZmww" type="2001" element="_rqeaQKQZEeydnfyZ9RZmww">
+          <children xmi:type="notation:Node" xmi:id="_rwJkc6QZEeydnfyZ9RZmww" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rwJkdKQZEeydnfyZ9RZmww" x="49" y="13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rwJkdaQZEeydnfyZ9RZmww" type="3005" element="_rqeaQaQZEeydnfyZ9RZmww">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_rwJkdqQZEeydnfyZ9RZmww" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwJkd6QZEeydnfyZ9RZmww"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rwJkcaQZEeydnfyZ9RZmww" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwJkcqQZEeydnfyZ9RZmww" x="1368" y="668" width="48" height="48"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Ofi-sp8XEeyXo_Lrej8k1g"/>
+        <edges xmi:type="notation:Edge" xmi:id="_JH5WYqH9EeyKpJ-Bif4Iag" type="4001" element="_JHefoqH9EeyKpJ-Bif4Iag" source="_joKfZ6FVEeyyAZdmYuw_-w" target="_CTb9RaF_EeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_JH5WZqH9EeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JH5WZ6H9EeyKpJ-Bif4Iag" x="-2" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JH5WaKH9EeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JH5WaaH9EeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JH5WaqH9EeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JH5Wa6H9EeyKpJ-Bif4Iag" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_JH5WY6H9EeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_JH5WZKH9EeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JH5WZaH9EeyKpJ-Bif4Iag" points="[24, 0, -180, -4]$[180, 3, -24, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JH5WbKH9EeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JH5WbaH9EeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_JH5WbqH9EeyKpJ-Bif4Iag" type="4001" element="_JHfGsqH9EeyKpJ-Bif4Iag" source="_joKfbKFVEeyyAZdmYuw_-w" target="_CTb9SqF_EeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_JH5WcqH9EeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JH5Wc6H9EeyKpJ-Bif4Iag" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JH5WdKH9EeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JH5WdaH9EeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JH5WdqH9EeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JH5Wd6H9EeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_JH5Wb6H9EeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_JH5WcKH9EeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JH5WcaH9EeyKpJ-Bif4Iag" points="[24, -2, -119, 9]$[119, -10, -24, 1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JH8ZsKH9EeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JH8ZsaH9EeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LvUSUKICEeyKpJ-Bif4Iag" type="4001" element="_LumgoKICEeyKpJ-Bif4Iag" source="_CTb9QKF_EeyyAZdmYuw_-w" target="_q1aVIKGVEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_LvU5YKICEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LvU5YaICEeyKpJ-Bif4Iag" x="1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LvU5YqICEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LvU5Y6ICEeyKpJ-Bif4Iag" x="-1" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LvU5ZKICEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LvU5ZaICEeyKpJ-Bif4Iag" x="-3" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LvUSUaICEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LvUSUqICEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LvUSU6ICEeyKpJ-Bif4Iag" points="[24, 1, -155, -9]$[155, 8, -24, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LvU5ZqICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LvU5Z6ICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LvU5aKICEeyKpJ-Bif4Iag" type="4001" element="_LumgpaICEeyKpJ-Bif4Iag" source="_CTb9RaF_EeyyAZdmYuw_-w" target="_q1emkKGVEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_LvU5bKICEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LvU5baICEeyKpJ-Bif4Iag" x="3" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LvU5bqICEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LvU5b6ICEeyKpJ-Bif4Iag" x="-7" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LvU5cKICEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LvU5caICEeyKpJ-Bif4Iag" x="-6" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LvU5aaICEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LvU5aqICEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LvU5a6ICEeyKpJ-Bif4Iag" points="[24, -1, -205, 0]$[205, -1, -24, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LvU5cqICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LvU5c6ICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_LvU5dKICEeyKpJ-Bif4Iag" type="4001" element="_LumgqqICEeyKpJ-Bif4Iag" source="_CTb9SqF_EeyyAZdmYuw_-w" target="_q1emlaGVEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_LvU5eKICEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LvU5eaICEeyKpJ-Bif4Iag" y="-12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LvU5eqICEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LvU5e6ICEeyKpJ-Bif4Iag" x="-2" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LvU5fKICEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LvU5faICEeyKpJ-Bif4Iag" x="-4" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_LvU5daICEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LvU5dqICEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LvU5d6ICEeyKpJ-Bif4Iag" points="[24, 1, -180, -10]$[180, 9, -24, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LvU5fqICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LvU5f6ICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_dvvx4KICEeyKpJ-Bif4Iag" type="4001" element="_dvkLyKICEeyKpJ-Bif4Iag" source="_q1aVIKGVEeyyAZdmYuw_-w" target="_cJDe8KFUEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_dvvx5KICEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvvx5aICEeyKpJ-Bif4Iag" x="-3" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dvvx5qICEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvvx56ICEeyKpJ-Bif4Iag" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dvvx6KICEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvvx6aICEeyKpJ-Bif4Iag" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_dvvx4aICEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_dvvx4qICEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvvx46ICEeyKpJ-Bif4Iag" points="[0, 26, 0, -87]$[0, 86, 0, -27]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dvvx6qICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dvvx66ICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_dvvx7KICEeyKpJ-Bif4Iag" type="4001" element="_dvt8sKICEeyKpJ-Bif4Iag" source="_q1emkKGVEeyyAZdmYuw_-w" target="_cJNP8KFUEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_dvvx8KICEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvvx8aICEeyKpJ-Bif4Iag" x="-2" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dvvx8qICEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvvx86ICEeyKpJ-Bif4Iag" x="-6" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dvvx9KICEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvvx9aICEeyKpJ-Bif4Iag" x="-5" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_dvvx7aICEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_dvvx7qICEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvvx76ICEeyKpJ-Bif4Iag" points="[11, 26, -48, -110]$[42, 97, -17, -39]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dvvx9qICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dvvx96ICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_dvvx-KICEeyKpJ-Bif4Iag" type="4001" element="_dvt8taICEeyKpJ-Bif4Iag" source="_q1emlaGVEeyyAZdmYuw_-w" target="_cJNP9aFUEeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_dvvx_KICEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvvx_aICEeyKpJ-Bif4Iag" x="3" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dvvx_qICEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvvx_6ICEeyKpJ-Bif4Iag" x="-9" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dvvyAKICEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvvyAaICEeyKpJ-Bif4Iag" x="-9" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_dvvx-aICEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_dvvx-qICEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvvx-6ICEeyKpJ-Bif4Iag" points="[10, 26, -44, -108]$[43, 107, -11, -27]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dvvyAqICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dvvyA6ICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_vT16wKICEeyKpJ-Bif4Iag" type="4001" element="_vTv0IKICEeyKpJ-Bif4Iag" source="_joKfYqFVEeyyAZdmYuw_-w" target="_KeQ4cKC1Eeye1P-RIatgxQ">
+          <children xmi:type="notation:Node" xmi:id="_vT16xKICEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vT16xaICEeyKpJ-Bif4Iag" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vT16xqICEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vT16x6ICEeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vT16yKICEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vT16yaICEeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_vT16waICEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_vT16wqICEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vT16w6ICEeyKpJ-Bif4Iag" points="[0, 0, 24, -108]$[-24, 108, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vT16yqICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vT16y6ICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_vT16zKICEeyKpJ-Bif4Iag" type="4001" element="_vTv0JaICEeyKpJ-Bif4Iag" source="_joKfZ6FVEeyyAZdmYuw_-w" target="_Kex10KC1Eeye1P-RIatgxQ">
+          <children xmi:type="notation:Node" xmi:id="_vT4-EKICEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vT4-EaICEeyKpJ-Bif4Iag" x="-12" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vT4-EqICEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vT4-E6ICEeyKpJ-Bif4Iag" x="10" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vT4-FKICEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vT4-FaICEeyKpJ-Bif4Iag" x="11" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_vT16zaICEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_vT16zqICEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vT16z6ICEeyKpJ-Bif4Iag" points="[0, 23, -1, -117]$[0, 120, -1, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vT4-FqICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vT4-F6ICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_vT4-GKICEeyKpJ-Bif4Iag" type="4001" element="_vTv0KqICEeyKpJ-Bif4Iag" source="_joKfbKFVEeyyAZdmYuw_-w" target="_Keyc4qC1Eeye1P-RIatgxQ">
+          <children xmi:type="notation:Node" xmi:id="_vT5lIKICEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vT5lIaICEeyKpJ-Bif4Iag" x="9" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vT5lIqICEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vT5lI6ICEeyKpJ-Bif4Iag" x="10" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vT5lJKICEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vT5lJaICEeyKpJ-Bif4Iag" x="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_vT4-GaICEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_vT4-GqICEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vT4-G6ICEeyKpJ-Bif4Iag" points="[2, 23, -9, -83]$[8, 86, -3, -20]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vT5lJqICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vT5lJ6ICEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_auS9oKIDEeyKpJ-Bif4Iag" type="4001" element="_auJMoKIDEeyKpJ-Bif4Iag" source="_CTb9QKF_EeyyAZdmYuw_-w" target="_TStUIKC2EeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_auS9pKIDEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_auS9paIDEeyKpJ-Bif4Iag" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_auS9pqIDEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_auS9p6IDEeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_auS9qKIDEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_auS9qaIDEeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_auS9oaIDEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_auS9oqIDEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_auS9o6IDEeyKpJ-Bif4Iag" points="[9, 24, -27, -67]$[36, 91, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_auTksKIDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_auTksaIDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_auTksqIDEeyKpJ-Bif4Iag" type="4001" element="_auOFIqIDEeyKpJ-Bif4Iag" source="_CTb9RaF_EeyyAZdmYuw_-w" target="_TS3sMKC2EeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_auTktqIDEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_auTkt6IDEeyKpJ-Bif4Iag" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_auTkuKIDEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_auTkuaIDEeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_auTkuqIDEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_auTku6IDEeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_auTks6IDEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_auTktKIDEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_auTktaIDEeyKpJ-Bif4Iag" points="[9, 24, -29, -72]$[38, 96, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_auTkvKIDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_auTkvaIDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_auTkvqIDEeyKpJ-Bif4Iag" type="4001" element="_auOsMqIDEeyKpJ-Bif4Iag" source="_CTb9SqF_EeyyAZdmYuw_-w" target="_TS7WkKC2EeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_auTkwqIDEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_auTkw6IDEeyKpJ-Bif4Iag" x="1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_auULwKIDEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_auULwaIDEeyKpJ-Bif4Iag" x="-2" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_auULwqIDEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_auULw6IDEeyKpJ-Bif4Iag" x="-1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_auTkv6IDEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_auTkwKIDEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_auTkwaIDEeyKpJ-Bif4Iag" points="[17, 24, -67, -93]$[66, 92, -18, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_auULxKIDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_auULxaIDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_zs_P0KIDEeyKpJ-Bif4Iag" type="4001" element="_zssVHKIDEeyKpJ-Bif4Iag" source="_SsYyoKDEEeyTr6mJh4tRGQ" target="_CTb9SqF_EeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_zs_P1KIDEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zs_P1aIDEeyKpJ-Bif4Iag" x="4" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ztAd8KIDEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztAd8aIDEeyKpJ-Bif4Iag" x="-4" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ztAd8qIDEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztAd86IDEeyKpJ-Bif4Iag" x="-2" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_zs_P0aIDEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_zs_P0qIDEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zs_P06IDEeyKpJ-Bif4Iag" points="[2, -24, -22, 212]$[21, -212, -3, 24]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ztAd9KIDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ztAd9aIDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ztBFAKIDEeyKpJ-Bif4Iag" type="4001" element="_zszppKIDEeyKpJ-Bif4Iag" source="_SsZZsqDEEeyTr6mJh4tRGQ" target="_CTb9RaF_EeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_ztBFBKIDEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztBFBaIDEeyKpJ-Bif4Iag" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ztBFBqIDEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztBFB6IDEeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ztBFCKIDEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztBFCaIDEeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ztBFAaIDEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ztBFAqIDEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ztBFA6IDEeyKpJ-Bif4Iag" points="[15, -24, -165, 256]$[164, -256, -16, 24]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ztBFCqIDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ztBFC6IDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_ztBFDKIDEeyKpJ-Bif4Iag" type="4001" element="_zszpqaIDEeyKpJ-Bif4Iag" source="_SsZZt6DEEeyTr6mJh4tRGQ" target="_CTb9QKF_EeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_ztBsEKIDEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztBsEaIDEeyKpJ-Bif4Iag" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ztBsEqIDEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztBsE6IDEeyKpJ-Bif4Iag" x="-1" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ztBsFKIDEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ztBsFaIDEeyKpJ-Bif4Iag" x="-1" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_ztBFDaIDEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_ztBFDqIDEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ztBFD6IDEeyKpJ-Bif4Iag" points="[14, -24, -131, 216]$[130, -216, -15, 24]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ztBsFqIDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ztBsF6IDEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_EHFDsKIEEeyKpJ-Bif4Iag" type="4001" element="_EHBZUKIEEeyKpJ-Bif4Iag" source="_SsYyoKDEEeyTr6mJh4tRGQ" target="_a7iswKDBEeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_EHFDtKIEEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EHFDtaIEEeyKpJ-Bif4Iag" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_EHFDtqIEEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EHFDt6IEEeyKpJ-Bif4Iag" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_EHFDuKIEEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EHFDuaIEEeyKpJ-Bif4Iag" x="1" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_EHFDsaIEEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_EHFDsqIEEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EHFDs6IEEeyKpJ-Bif4Iag" points="[24, 9, -108, -41]$[108, 40, -24, -10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EHFDuqIEEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EHFDu6IEEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_EHFDvKIEEeyKpJ-Bif4Iag" type="4001" element="_EHBZVaIEEeyKpJ-Bif4Iag" source="_SsZZsqDEEeyTr6mJh4tRGQ" target="_a7ozYKDBEeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_EHFDwKIEEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EHFDwaIEEeyKpJ-Bif4Iag" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_EHFDwqIEEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EHFDw6IEEeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_EHFDxKIEEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EHFDxaIEEeyKpJ-Bif4Iag" x="-2" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_EHFDvaIEEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_EHFDvqIEEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EHFDv6IEEeyKpJ-Bif4Iag" points="[24, 0, -277, 0]$[277, 0, -24, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EHFDxqIEEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EHFDx6IEEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_EHFDyKIEEeyKpJ-Bif4Iag" type="4001" element="_EHCAYqIEEeyKpJ-Bif4Iag" source="_SsZZt6DEEeyTr6mJh4tRGQ" target="_a7pacKDBEeyTr6mJh4tRGQ">
+          <children xmi:type="notation:Node" xmi:id="_EHFDzKIEEeyKpJ-Bif4Iag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EHFDzaIEEeyKpJ-Bif4Iag" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_EHFDzqIEEeyKpJ-Bif4Iag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EHFDz6IEEeyKpJ-Bif4Iag" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_EHFD0KIEEeyKpJ-Bif4Iag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EHFD0aIEEeyKpJ-Bif4Iag" x="1" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_EHFDyaIEEeyKpJ-Bif4Iag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_EHFDyqIEEeyKpJ-Bif4Iag" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EHFDy6IEEeyKpJ-Bif4Iag" points="[24, 2, -218, -26]$[218, 25, -24, -3]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EHFD0qIEEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EHFD06IEEeyKpJ-Bif4Iag" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_e1s7EKIHEeyb3q7VM57btw" type="4001" element="_e1jxKKIHEeyb3q7VM57btw" source="_joKfYqFVEeyyAZdmYuw_-w" target="_CTb9QKF_EeyyAZdmYuw_-w">
+          <children xmi:type="notation:Node" xmi:id="_e10P0KIHEeyb3q7VM57btw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e10P0aIHEeyb3q7VM57btw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_e1024KIHEeyb3q7VM57btw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e1024aIHEeyb3q7VM57btw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_e12FAKIHEeyb3q7VM57btw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e12FAaIHEeyb3q7VM57btw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_e1tiIKIHEeyb3q7VM57btw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_e1tiIaIHEeyb3q7VM57btw" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_e1tiIqIHEeyb3q7VM57btw" points="[24, -2, -144, 8]$[144, -9, -24, 1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e15vYKIHEeyb3q7VM57btw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e15vYaIHEeyb3q7VM57btw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_6ne_8KIHEeyb3q7VM57btw" type="4001" element="_6mx1jKIHEeyb3q7VM57btw" source="_cJDe8KFUEeyyAZdmYuw_-w" target="_l-ts1KIEEeyKpJ-Bif4Iag">
+          <children xmi:type="notation:Node" xmi:id="_6ne_9KIHEeyb3q7VM57btw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ne_9aIHEeyb3q7VM57btw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6nfnAKIHEeyb3q7VM57btw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6nfnAaIHEeyb3q7VM57btw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6nfnAqIHEeyb3q7VM57btw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6nfnA6IHEeyb3q7VM57btw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_6ne_8aIHEeyb3q7VM57btw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_6ne_8qIHEeyb3q7VM57btw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6ne_86IHEeyb3q7VM57btw" points="[0, 0, -22, -130]$[20, 120, -2, -10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6nfnBKIHEeyb3q7VM57btw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6nfnBaIHEeyb3q7VM57btw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_6nfnBqIHEeyb3q7VM57btw" type="4001" element="_6mx1kaIHEeyb3q7VM57btw" source="_cJNP8KFUEeyyAZdmYuw_-w" target="_l-ts2aIEEeyKpJ-Bif4Iag">
+          <children xmi:type="notation:Node" xmi:id="_6nfnCqIHEeyb3q7VM57btw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6nfnC6IHEeyb3q7VM57btw" x="-6" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6nfnDKIHEeyb3q7VM57btw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6nfnDaIHEeyb3q7VM57btw" x="4" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6nfnDqIHEeyb3q7VM57btw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6nfnD6IHEeyb3q7VM57btw" x="4" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_6nfnB6IHEeyb3q7VM57btw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_6nfnCKIHEeyb3q7VM57btw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6nfnCaIHEeyb3q7VM57btw" points="[31, 39, -75, -92]$[97, 121, -9, -10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6nfnEKIHEeyb3q7VM57btw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6nfnEaIHEeyb3q7VM57btw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_6nfnEqIHEeyb3q7VM57btw" type="4001" element="_6mx1lqIHEeyb3q7VM57btw" source="_cJNP9aFUEeyyAZdmYuw_-w" target="_l-ts3qIEEeyKpJ-Bif4Iag">
+          <children xmi:type="notation:Node" xmi:id="_6nfnFqIHEeyb3q7VM57btw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6nfnF6IHEeyb3q7VM57btw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6nfnGKIHEeyb3q7VM57btw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6nfnGaIHEeyb3q7VM57btw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_6nfnGqIHEeyb3q7VM57btw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6nfnG6IHEeyb3q7VM57btw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_6nfnE6IHEeyb3q7VM57btw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_6nfnFKIHEeyb3q7VM57btw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6nfnFaIHEeyb3q7VM57btw" points="[0, 0, -79, -94]$[70, 84, -9, -10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6nfnHKIHEeyb3q7VM57btw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6nfnHaIHEeyb3q7VM57btw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_rbMP5KJmEeyb3q7VM57btw" type="4001" element="_raN_bKJmEeyb3q7VM57btw" source="_xAK04KJeEeyb3q7VM57btw" target="_v8f_IKJjEeyb3q7VM57btw">
+          <children xmi:type="notation:Node" xmi:id="_rbMP6KJmEeyb3q7VM57btw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rbMP6aJmEeyb3q7VM57btw" x="-1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rbMP6qJmEeyb3q7VM57btw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rbMP66JmEeyb3q7VM57btw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_rbMP7KJmEeyb3q7VM57btw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rbMP7aJmEeyb3q7VM57btw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_rbMP5aJmEeyb3q7VM57btw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_rbMP5qJmEeyb3q7VM57btw" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rbMP56JmEeyb3q7VM57btw" points="[24, 0, -140, -1]$[140, 0, -24, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rbMP7qJmEeyb3q7VM57btw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rbMP76JmEeyb3q7VM57btw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_C-lkOKLDEeyb3q7VM57btw" type="4001" element="_C9btTKLDEeyb3q7VM57btw" source="_xAK04KJeEeyb3q7VM57btw" target="_xknabKJoEeyb3q7VM57btw">
+          <children xmi:type="notation:Node" xmi:id="_C-lkPKLDEeyb3q7VM57btw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C-lkPaLDEeyb3q7VM57btw" x="-8" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_C-lkPqLDEeyb3q7VM57btw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C-lkP6LDEeyb3q7VM57btw" x="4" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_C-lkQKLDEeyb3q7VM57btw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C-lkQaLDEeyb3q7VM57btw" x="5" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_C-lkOaLDEeyb3q7VM57btw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_C-lkOqLDEeyb3q7VM57btw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C-lkO6LDEeyb3q7VM57btw" points="[0, 0, 0, -236]$[0, 215, 0, -21]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C-lkQqLDEeyb3q7VM57btw" id="(0.4791666666666667,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C-lkQ6LDEeyb3q7VM57btw" id="(0.0,0.5121951219512195)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_m8Ko0KLHEeyb3q7VM57btw" type="4001" element="_m6kGLKLHEeyb3q7VM57btw" source="_v8f_IKJjEeyb3q7VM57btw" target="_5QvTqKLEEeyb3q7VM57btw">
+          <children xmi:type="notation:Node" xmi:id="_m8Ko1KLHEeyb3q7VM57btw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m8Ko1aLHEeyb3q7VM57btw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_m8Ko1qLHEeyb3q7VM57btw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m8Ko16LHEeyb3q7VM57btw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_m8Ko2KLHEeyb3q7VM57btw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m8Ko2aLHEeyb3q7VM57btw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_m8Ko0aLHEeyb3q7VM57btw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_m8Ko0qLHEeyb3q7VM57btw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_m8Ko06LHEeyb3q7VM57btw" points="[6, -27, -143, 7]$[12, -27, -137, 7]$[120, -26, -29, 8]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8Ko2qLHEeyb3q7VM57btw" id="(0.8333333333333334,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_m8Ko26LHEeyb3q7VM57btw" id="(0.6041666666666666,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_kN4RMKPqEeyajOSSz9kxww" type="4001" element="_kLWhoKPqEeyajOSSz9kxww" source="_v8f_IKJjEeyb3q7VM57btw" target="_A1nykKLLEeyajOSSz9kxww">
+          <children xmi:type="notation:Node" xmi:id="_kN4RNKPqEeyajOSSz9kxww" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kN4RNaPqEeyajOSSz9kxww" x="4" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kONBUKPqEeyajOSSz9kxww" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kONBUaPqEeyajOSSz9kxww" x="-4" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kONBUqPqEeyajOSSz9kxww" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kONBU6PqEeyajOSSz9kxww" x="-6" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_kN4RMaPqEeyajOSSz9kxww"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kN4RMqPqEeyajOSSz9kxww" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kN4RM6PqEeyajOSSz9kxww" points="[-3, -1, -58, -89]$[54, 88, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kOgjUKPqEeyajOSSz9kxww" id="(0.9166666666666666,0.9791666666666666)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kOgjUaPqEeyajOSSz9kxww" id="(0.4791666666666667,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_vDRJkKPuEeyajOSSz9kxww" type="4001" element="_vBLe7KPuEeyajOSSz9kxww" source="_XynYiKPsEeyajOSSz9kxww" target="_v8f_IKJjEeyb3q7VM57btw">
+          <children xmi:type="notation:Node" xmi:id="_vDRJlKPuEeyajOSSz9kxww" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vDRJlaPuEeyajOSSz9kxww" x="95" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vDRJlqPuEeyajOSSz9kxww" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vDRJl6PuEeyajOSSz9kxww" x="159" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vDRJmKPuEeyajOSSz9kxww" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vDRJmaPuEeyajOSSz9kxww" x="29" y="-2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_vDRJkaPuEeyajOSSz9kxww"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_vDRJkqPuEeyajOSSz9kxww" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vDRJk6PuEeyajOSSz9kxww" points="[0, 0, 34, 185]$[-22, -185, 12, 0]$[-22, -187, 12, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vDRwoKPuEeyajOSSz9kxww" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vDRwoaPuEeyajOSSz9kxww" id="(0.08333333333333333,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_2peJTKPyEeyajOSSz9kxww" type="4001" element="_2nTl_KPyEeyajOSSz9kxww" source="_XynYiKPsEeyajOSSz9kxww" target="_yhkVEKPxEeyajOSSz9kxww">
+          <children xmi:type="notation:Node" xmi:id="_2peJUKPyEeyajOSSz9kxww" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2peJUaPyEeyajOSSz9kxww" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2peJUqPyEeyajOSSz9kxww" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2peJU6PyEeyajOSSz9kxww" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2peJVKPyEeyajOSSz9kxww" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2peJVaPyEeyajOSSz9kxww" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_2peJTaPyEeyajOSSz9kxww"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_2peJTqPyEeyajOSSz9kxww" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2peJT6PyEeyajOSSz9kxww" points="[0, 0, -182, -31]$[182, 31, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2peJVqPyEeyajOSSz9kxww" id="(1.0,0.5833333333333334)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2peJV6PyEeyajOSSz9kxww" id="(0.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_gcwE8KQWEeydnfyZ9RZmww" type="4001" element="_gZ4-PKQWEeydnfyZ9RZmww" source="_5QvTqKLEEeyb3q7VM57btw" target="_4dvDoKQUEeydnfyZ9RZmww">
+          <children xmi:type="notation:Node" xmi:id="_gcwE9KQWEeydnfyZ9RZmww" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcwE9aQWEeydnfyZ9RZmww" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gc09cKQWEeydnfyZ9RZmww" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gc09caQWEeydnfyZ9RZmww" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gc2LkKQWEeydnfyZ9RZmww" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gc2LkaQWEeydnfyZ9RZmww" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_gcwE8aQWEeydnfyZ9RZmww"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_gcwE8qQWEeydnfyZ9RZmww" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gcwE86QWEeydnfyZ9RZmww" points="[0, 0, -96, -60]$[96, 60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gc2yoKQWEeydnfyZ9RZmww" id="(1.0,0.6078431372549019)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gc2yoaQWEeydnfyZ9RZmww" id="(0.0,0.1935483870967742)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_V7EcoKQbEeydnfyZ9RZmww" type="4001" element="_V4he_KQbEeydnfyZ9RZmww" source="_4dvDoKQUEeydnfyZ9RZmww" target="_rwJkcKQZEeydnfyZ9RZmww">
+          <children xmi:type="notation:Node" xmi:id="_V7EcpKQbEeydnfyZ9RZmww" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V7EcpaQbEeydnfyZ9RZmww" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_V7EcpqQbEeydnfyZ9RZmww" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V7Ecp6QbEeydnfyZ9RZmww" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_V7EcqKQbEeydnfyZ9RZmww" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V7EcqaQbEeydnfyZ9RZmww" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_V7EcoaQbEeydnfyZ9RZmww"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_V7EcoqQbEeydnfyZ9RZmww" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V7Eco6QbEeydnfyZ9RZmww" points="[0, 0, -108, -66]$[108, 66, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_V7EcqqQbEeydnfyZ9RZmww" id="(0.5517241379310345,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_V7Ecq6QbEeydnfyZ9RZmww" id="(0.0,0.2708333333333333)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Of15oJ8XEeyXo_Lrej8k1g" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_Of2gsJ8XEeyXo_Lrej8k1g"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_KdgDcaC1Eeye1P-RIatgxQ" incomingEdges="_vTv0IKICEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:CategoryValue" href="new.cams2024#//@awareobject.0/@belong_categoryvalue.0"/>
+      <semanticElements xmi:type="cams2024:CategoryValue" href="new.cams2024#//@awareobject.0/@belong_categoryvalue.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_LgFg0aDAEeyTr6mJh4tRGQ" showIcon="false" labelAlignment="RIGHT" workspacePath="/cams2025/icons/CategoryValue.gif">
+        <customFeatures>labelSize</customFeatures>
+        <labelFormat>italic</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Categ_Value']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Categ_Value']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Kd5FAaC1Eeye1P-RIatgxQ" incomingEdges="_vTv0JaICEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:CategoryValue" href="new.cams2024#//@awareobject.1/@belong_categoryvalue.0"/>
+      <semanticElements xmi:type="cams2024:CategoryValue" href="new.cams2024#//@awareobject.1/@belong_categoryvalue.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_LgODsaDAEeyTr6mJh4tRGQ" showIcon="false" labelAlignment="RIGHT" workspacePath="/cams2025/icons/CategoryValue.gif">
+        <customFeatures>labelSize</customFeatures>
+        <labelFormat>italic</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Categ_Value']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Categ_Value']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Kd66MqC1Eeye1P-RIatgxQ" incomingEdges="_vTv0KqICEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:CategoryValue" href="new.cams2024#//@awareobject.2/@belong_categoryvalue.0"/>
+      <semanticElements xmi:type="cams2024:CategoryValue" href="new.cams2024#//@awareobject.2/@belong_categoryvalue.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_LgVYcaDAEeyTr6mJh4tRGQ" showIcon="false" labelAlignment="RIGHT" workspacePath="/cams2025/icons/CategoryValue.gif">
+        <customFeatures>labelSize</customFeatures>
+        <labelFormat>italic</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Categ_Value']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Categ_Value']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_xi474KJoEeyb3q7VM57btw" incomingEdges="_C9btTKLDEeyb3q7VM57btw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:CategoryValue" href="new.cams2024#//@awareobject.3/@belong_categoryvalue.0"/>
+      <semanticElements xmi:type="cams2024:CategoryValue" href="new.cams2024#//@awareobject.3/@belong_categoryvalue.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_xi474aJoEeyb3q7VM57btw" labelSize="12" showIcon="false" labelAlignment="RIGHT" workspacePath="/cams2025/icons/CategoryValue.gif">
+        <labelFormat>italic</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Categ_Value']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Categ_Value']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_TR40wqC2EeyTr6mJh4tRGQ" name="Relevance Value: :Low" incomingEdges="_auJMoKIDEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:RelevanceValue" href="new.cams2024#//@awareobject.0/@has_contextfeature.0/@Has_relevancevalue.0"/>
+      <semanticElements xmi:type="cams2024:RelevanceValue" href="new.cams2024#//@awareobject.0/@has_contextfeature.0/@Has_relevancevalue.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_oU5wAKDAEeyTr6mJh4tRGQ" showIcon="false" workspacePath="/cams2025/icons/RelevanceValue.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Relevance_Value']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Relevance_Value']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_TShG4aC2EeyTr6mJh4tRGQ" name="Relevance Value: :Medium" incomingEdges="_auOFIqIDEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:RelevanceValue" href="new.cams2024#//@awareobject.1/@has_contextfeature.0/@Has_relevancevalue.0"/>
+      <semanticElements xmi:type="cams2024:RelevanceValue" href="new.cams2024#//@awareobject.1/@has_contextfeature.0/@Has_relevancevalue.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_oVBEwaDAEeyTr6mJh4tRGQ" showIcon="false" workspacePath="/cams2025/icons/RelevanceValue.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Relevance_Value']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Relevance_Value']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_TSiVAKC2EeyTr6mJh4tRGQ" name="Relevance Value: :High" incomingEdges="_auOsMqIDEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:RelevanceValue" href="new.cams2024#//@awareobject.2/@has_contextfeature.0/@Has_relevancevalue.0"/>
+      <semanticElements xmi:type="cams2024:RelevanceValue" href="new.cams2024#//@awareobject.2/@has_contextfeature.0/@Has_relevancevalue.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_oVNSAKDAEeyTr6mJh4tRGQ" showIcon="false" workspacePath="/cams2025/icons/RelevanceValue.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Relevance_Value']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Relevance_Value']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_AzqDsKLLEeyajOSSz9kxww" name="Relevance Value: :High" incomingEdges="_kLWhoKPqEeyajOSSz9kxww" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:RelevanceValue" href="new.cams2024#//@awareobject.3/@has_contextfeature.0/@Has_relevancevalue.0"/>
+      <semanticElements xmi:type="cams2024:RelevanceValue" href="new.cams2024#//@awareobject.3/@has_contextfeature.0/@Has_relevancevalue.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_AzuVIKLLEeyajOSSz9kxww" labelSize="12" showIcon="false" workspacePath="/cams2025/icons/RelevanceValue.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Relevance_Value']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Relevance_Value']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a6824qDBEeyTr6mJh4tRGQ" name="Service:Monitoreo del Clima" incomingEdges="_EHBZUKIEEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:Service" href="new.cams2024#//@service.0"/>
+      <semanticElements xmi:type="cams2024:Service" href="new.cams2024#//@service.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_a7HO8KDBEeyTr6mJh4tRGQ" showIcon="false" workspacePath="/cams2025/icons/Service.gif">
+        <customFeatures>labelFormat</customFeatures>
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Service']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Service']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a7JEIKDBEeyTr6mJh4tRGQ" name="Service:Posicionamiento en Interiores" incomingEdges="_EHBZVaIEEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:Service" href="new.cams2024#//@service.1"/>
+      <semanticElements xmi:type="cams2024:Service" href="new.cams2024#//@service.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_a7Y7wKDBEeyTr6mJh4tRGQ" showIcon="false" workspacePath="/cams2025/icons/Service.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Service']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Service']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_a7Zi0KDBEeyTr6mJh4tRGQ" name="Service:Mapas" incomingEdges="_EHCAYqIEEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:Service" href="new.cams2024#//@service.2"/>
+      <semanticElements xmi:type="cams2024:Service" href="new.cams2024#//@service.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_a7gQgKDBEeyTr6mJh4tRGQ" showIcon="false" labelAlignment="LEFT" workspacePath="/cams2025/icons/Service.gif">
+        <customFeatures>labelFormat</customFeatures>
+        <customFeatures>labelAlignment</customFeatures>
+        <customFeatures>labelSize</customFeatures>
+        <labelFormat>italic</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Service']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Service']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_ygRUkKPxEeyajOSSz9kxww" name="Service:Servicio 1" incomingEdges="_2nTl_KPyEeyajOSSz9kxww" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:Service" href="new.cams2024#//@service.3"/>
+      <semanticElements xmi:type="cams2024:Service" href="new.cams2024#//@service.3"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ygRUkaPxEeyajOSSz9kxww" labelSize="12" showIcon="false" workspacePath="/cams2025/icons/Service.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Service']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Service']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_SsHF0qDEEeyTr6mJh4tRGQ" name="Rule: Control del Clima" outgoingEdges="_zssVHKIDEeyKpJ-Bif4Iag _EHBZUKIEEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.0"/>
+      <semanticElements xmi:type="cams2024:Rule" href="new.cams2024#//@rule.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_SsKwMKDEEeyTr6mJh4tRGQ" showIcon="false" iconPath="/cams2025/icons/Rule.jpg" workspacePath="/cams2025/icons/Rule.jpg">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Rule']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Rule']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_SsLXQaDEEeyTr6mJh4tRGQ" name="Rule: Control de Posicion en Interiores" outgoingEdges="_zszppKIDEeyKpJ-Bif4Iag _EHBZVaIEEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.1"/>
+      <semanticElements xmi:type="cams2024:Rule" href="new.cams2024#//@rule.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_SsPosKDEEeyTr6mJh4tRGQ" showIcon="false" iconPath="/cams2025/icons/Rule.jpg" workspacePath="/cams2025/icons/Rule.jpg">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Rule']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Rule']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_SsQPwaDEEeyTr6mJh4tRGQ" name="Rule: Control de Mapas" outgoingEdges="_zszpqaIDEeyKpJ-Bif4Iag _EHCAYqIEEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.2"/>
+      <semanticElements xmi:type="cams2024:Rule" href="new.cams2024#//@rule.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_SsXkgKDEEeyTr6mJh4tRGQ" showIcon="false" iconPath="/cams2025/icons/Rule.jpg" workspacePath="/cams2025/icons/Rule.jpg">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Rule']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Rule']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_XxFHYKPsEeyajOSSz9kxww" name="Rule: Actualiza Posicion" outgoingEdges="_vBLe7KPuEeyajOSSz9kxww _2nTl_KPyEeyajOSSz9kxww" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.3"/>
+      <semanticElements xmi:type="cams2024:Rule" href="new.cams2024#//@rule.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_XxO4YKPsEeyajOSSz9kxww" labelSize="12" showIcon="false" iconPath="/cams2025/icons/Rule.jpg" workspacePath="/cams2025/icons/Rule.jpg">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Rule']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Rule']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_cI2DkqFUEeyyAZdmYuw_-w" name="Concret Sensor: Active" outgoingEdges="_6mx1jKIHEeyb3q7VM57btw" incomingEdges="_dvkLyKICEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.0/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <semanticElements xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.0/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_cI8KMKFUEeyyAZdmYuw_-w" showIcon="false" workspacePath="/cams2025/icons/ConcretSensor.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Concret_Sensor']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Concret_Sensor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_cI8KMqFUEeyyAZdmYuw_-w" name="Concret Sensor: Default" outgoingEdges="_6mx1kaIHEeyb3q7VM57btw" incomingEdges="_dvt8sKICEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.1/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <semanticElements xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.1/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_cI-mcKFUEeyyAZdmYuw_-w" showIcon="false" workspacePath="/cams2025/icons/ConcretSensor.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Concret_Sensor']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Concret_Sensor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_cI_NgaFUEeyyAZdmYuw_-w" name="Concret Sensor: Active" outgoingEdges="_6mx1lqIHEeyb3q7VM57btw" incomingEdges="_dvt8taICEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.2/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <semanticElements xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.2/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_cJAboKFUEeyyAZdmYuw_-w" showIcon="false" workspacePath="/cams2025/icons/ConcretSensor.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Concret_Sensor']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Concret_Sensor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_4a3V0KQUEeydnfyZ9RZmww" name="Concret Sensor: Default" outgoingEdges="_V4he_KQbEeydnfyZ9RZmww" incomingEdges="_gZ4-PKQWEeydnfyZ9RZmww" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.3/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <semanticElements xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.3/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_4a8OUKQUEeydnfyZ9RZmww" labelSize="12" showIcon="false" workspacePath="/cams2025/icons/ConcretSensor.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Concret_Sensor']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Concret_Sensor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_jmK7UKFVEeyyAZdmYuw_-w" name="Aware Object: AUTOMOVIL" outgoingEdges="_vTv0IKICEeyKpJ-Bif4Iag _e1jxKKIHEeyb3q7VM57btw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.0"/>
+      <semanticElements xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_jmNXkKFVEeyyAZdmYuw_-w" showIcon="false" workspacePath="/cams2025/icons/AwareObject.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Object_Aware']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Object_Aware']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_jmN-oaFVEeyyAZdmYuw_-w" name="Aware Object: PERSONA" outgoingEdges="_JHefoqH9EeyKpJ-Bif4Iag _vTv0JaICEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.1"/>
+      <semanticElements xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_jmPz0KFVEeyyAZdmYuw_-w" showIcon="false" workspacePath="/cams2025/icons/AwareObject.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Object_Aware']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Object_Aware']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_jmQa4aFVEeyyAZdmYuw_-w" name="Aware Object: AWAREOBJECT: CLIMA1" outgoingEdges="_JHfGsqH9EeyKpJ-Bif4Iag _vTv0KqICEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.2"/>
+      <semanticElements xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_jmRpAKFVEeyyAZdmYuw_-w" showIcon="false" workspacePath="/cams2025/icons/AwareObject.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Object_Aware']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Object_Aware']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_w9488KJeEeyb3q7VM57btw" name="Aware Object: AWARE OBJECT: USUARIO2" outgoingEdges="_raN_bKJmEeyb3q7VM57btw _C9btTKLDEeyb3q7VM57btw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.3"/>
+      <semanticElements xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_w-EjIKJeEeyb3q7VM57btw" showIcon="false" workspacePath="/cams2025/icons/AwareObject.gif">
+        <customFeatures>labelFormat</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Object_Aware']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Object_Aware']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_CRYu1qF_EeyyAZdmYuw_-w" name="Context_Feature:Posicion" outgoingEdges="_LumgoKICEeyKpJ-Bif4Iag _auJMoKIDEeyKpJ-Bif4Iag" incomingEdges="_zszpqaIDEeyKpJ-Bif4Iag _e1jxKKIHEeyb3q7VM57btw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.0/@has_contextfeature.0"/>
+      <semanticElements xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.0/@has_contextfeature.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_CRfcgKF_EeyyAZdmYuw_-w" showIcon="false" labelAlignment="LEFT" workspacePath="/cams2025/icons/ContextFeature.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Context_Feature']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Context_Feature']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_CRgDkaF_EeyyAZdmYuw_-w" name="Context_Feature:Actividad En Reunion" outgoingEdges="_LumgpaICEeyKpJ-Bif4Iag _auOFIqIDEeyKpJ-Bif4Iag" incomingEdges="_JHefoqH9EeyKpJ-Bif4Iag _zszppKIDEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.1/@has_contextfeature.0"/>
+      <semanticElements xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.1/@has_contextfeature.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_CRgDkqF_EeyyAZdmYuw_-w" showIcon="false" labelAlignment="LEFT" workspacePath="/cams2025/icons/ContextFeature.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Context_Feature']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Context_Feature']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_CRgqoKF_EeyyAZdmYuw_-w" name="Context_Feature:Clima de Quito" outgoingEdges="_LumgqqICEeyKpJ-Bif4Iag _auOsMqIDEeyKpJ-Bif4Iag" incomingEdges="_JHfGsqH9EeyKpJ-Bif4Iag _zssVHKIDEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.2/@has_contextfeature.0"/>
+      <semanticElements xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.2/@has_contextfeature.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_CRgqoaF_EeyyAZdmYuw_-w" showIcon="false" labelAlignment="LEFT" workspacePath="/cams2025/icons/ContextFeature.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Context_Feature']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Context_Feature']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_vH3dMKJjEeyb3q7VM57btw" name="Context_Feature:Posicion" outgoingEdges="_m6kGLKLHEeyb3q7VM57btw _kLWhoKPqEeyajOSSz9kxww" incomingEdges="_raN_bKJmEeyb3q7VM57btw _vBLe7KPuEeyajOSSz9kxww" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.3/@has_contextfeature.0"/>
+      <semanticElements xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.3/@has_contextfeature.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vH3dMaJjEeyb3q7VM57btw" labelSize="12" showIcon="false" labelAlignment="LEFT" workspacePath="/cams2025/icons/ContextFeature.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Context_Feature']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Context_Feature']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q1QkIqGVEeyyAZdmYuw_-w" name="Abstract Sensor: GPS" outgoingEdges="_dvkLyKICEeyKpJ-Bif4Iag" incomingEdges="_LumgoKICEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.0/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <semanticElements xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.0/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_q1QkI6GVEeyyAZdmYuw_-w" showIcon="false" workspacePath="/cams2025/icons/AbstractSensor.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='AbstractSensor']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='AbstractSensor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q1QkJaGVEeyyAZdmYuw_-w" name="Abstract Sensor: Beacons" outgoingEdges="_dvt8sKICEeyKpJ-Bif4Iag" incomingEdges="_LumgpaICEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.1/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <semanticElements xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.1/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_q1QkJqGVEeyyAZdmYuw_-w" showIcon="false" workspacePath="/cams2025/icons/AbstractSensor.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='AbstractSensor']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='AbstractSensor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_q1QkKKGVEeyyAZdmYuw_-w" name="Abstract Sensor: ProgramMonitory" outgoingEdges="_dvt8taICEeyKpJ-Bif4Iag" incomingEdges="_LumgqqICEeyKpJ-Bif4Iag" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.2/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <semanticElements xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.2/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_q1QkKaGVEeyyAZdmYuw_-w" showIcon="false" workspacePath="/cams2025/icons/AbstractSensor.gif">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='AbstractSensor']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='AbstractSensor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_5Pt_4KLEEeyb3q7VM57btw" name="Abstract Sensor: ManualInput" outgoingEdges="_gZ4-PKQWEeydnfyZ9RZmww" incomingEdges="_m6kGLKLHEeyb3q7VM57btw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.3/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <semanticElements xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.3/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_5P4X8KLEEeyb3q7VM57btw" labelSize="12" showIcon="false" workspacePath="/cams2025/icons/AbstractSensor.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='AbstractSensor']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='AbstractSensor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_JHefoqH9EeyKpJ-Bif4Iag" sourceNode="_jmN-oaFVEeyyAZdmYuw_-w" targetNode="_CRgDkaF_EeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_JHefo6H9EeyKpJ-Bif4Iag" size="2" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Awo-contF']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_JHefpKH9EeyKpJ-Bif4Iag" labelSize="12">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Awo-contF']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_JHfGsqH9EeyKpJ-Bif4Iag" sourceNode="_jmQa4aFVEeyyAZdmYuw_-w" targetNode="_CRgqoKF_EeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_JHfGs6H9EeyKpJ-Bif4Iag" size="2" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Awo-contF']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_JHfGtKH9EeyKpJ-Bif4Iag" labelSize="12">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Awo-contF']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LumgoKICEeyKpJ-Bif4Iag" sourceNode="_CRYu1qF_EeyyAZdmYuw_-w" targetNode="_q1QkIqGVEeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.0/@has_contextfeature.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LumgoaICEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='CtxtF-AbsS']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LumgoqICEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='CtxtF-AbsS']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LumgpaICEeyKpJ-Bif4Iag" sourceNode="_CRgDkaF_EeyyAZdmYuw_-w" targetNode="_q1QkJaGVEeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.1/@has_contextfeature.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_LumgpqICEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='CtxtF-AbsS']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Lumgp6ICEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='CtxtF-AbsS']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_LumgqqICEeyKpJ-Bif4Iag" sourceNode="_CRgqoKF_EeyyAZdmYuw_-w" targetNode="_q1QkKKGVEeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.2/@has_contextfeature.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Lumgq6ICEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='CtxtF-AbsS']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_LumgrKICEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='CtxtF-AbsS']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_dvkLyKICEeyKpJ-Bif4Iag" sourceNode="_q1QkIqGVEeyyAZdmYuw_-w" targetNode="_cI2DkqFUEeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.0/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_dvkLyaICEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='AbstS-ConcrtS']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_dvkLyqICEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='AbstS-ConcrtS']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_dvt8sKICEeyKpJ-Bif4Iag" sourceNode="_q1QkJaGVEeyyAZdmYuw_-w" targetNode="_cI8KMqFUEeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.1/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_dvt8saICEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='AbstS-ConcrtS']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_dvt8sqICEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='AbstS-ConcrtS']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_dvt8taICEeyKpJ-Bif4Iag" sourceNode="_q1QkKKGVEeyyAZdmYuw_-w" targetNode="_cI_NgaFUEeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.2/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_dvt8tqICEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='AbstS-ConcrtS']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_dvt8t6ICEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='AbstS-ConcrtS']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vTv0IKICEeyKpJ-Bif4Iag" sourceNode="_jmK7UKFVEeyyAZdmYuw_-w" targetNode="_KdgDcaC1Eeye1P-RIatgxQ">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vTv0IaICEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ObjAw-CatV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vTv0IqICEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ObjAw-CatV']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vTv0JaICEeyKpJ-Bif4Iag" sourceNode="_jmN-oaFVEeyyAZdmYuw_-w" targetNode="_Kd5FAaC1Eeye1P-RIatgxQ">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vTv0JqICEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ObjAw-CatV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vTv0J6ICEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ObjAw-CatV']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vTv0KqICEeyKpJ-Bif4Iag" sourceNode="_jmQa4aFVEeyyAZdmYuw_-w" targetNode="_Kd66MqC1Eeye1P-RIatgxQ">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vTv0K6ICEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ObjAw-CatV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vTv0LKICEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ObjAw-CatV']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_auJMoKIDEeyKpJ-Bif4Iag" sourceNode="_CRYu1qF_EeyyAZdmYuw_-w" targetNode="_TR40wqC2EeyTr6mJh4tRGQ">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.0/@has_contextfeature.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_auJMoaIDEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContextF-RelV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_auJMoqIDEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContextF-RelV']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_auOFIqIDEeyKpJ-Bif4Iag" sourceNode="_CRgDkaF_EeyyAZdmYuw_-w" targetNode="_TShG4aC2EeyTr6mJh4tRGQ">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.1/@has_contextfeature.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_auOFI6IDEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContextF-RelV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_auOFJKIDEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContextF-RelV']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_auOsMqIDEeyKpJ-Bif4Iag" sourceNode="_CRgqoKF_EeyyAZdmYuw_-w" targetNode="_TSiVAKC2EeyTr6mJh4tRGQ">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.2/@has_contextfeature.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_auOsM6IDEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContextF-RelV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_auOsNKIDEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContextF-RelV']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zssVHKIDEeyKpJ-Bif4Iag" sourceNode="_SsHF0qDEEeyTr6mJh4tRGQ" targetNode="_CRgqoKF_EeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zszpoKIDEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContF-Rule']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zszpoaIDEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContF-Rule']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zszppKIDEeyKpJ-Bif4Iag" sourceNode="_SsLXQaDEEeyTr6mJh4tRGQ" targetNode="_CRgDkaF_EeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zszppaIDEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContF-Rule']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zszppqIDEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContF-Rule']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_zszpqaIDEeyKpJ-Bif4Iag" sourceNode="_SsQPwaDEEeyTr6mJh4tRGQ" targetNode="_CRYu1qF_EeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_zszpqqIDEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContF-Rule']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_zszpq6IDEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContF-Rule']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_EHBZUKIEEeyKpJ-Bif4Iag" sourceNode="_SsHF0qDEEeyTr6mJh4tRGQ" targetNode="_a6824qDBEeyTr6mJh4tRGQ">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_EHBZUaIEEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Rule-Serv']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_EHBZUqIEEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Rule-Serv']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_EHBZVaIEEeyKpJ-Bif4Iag" sourceNode="_SsLXQaDEEeyTr6mJh4tRGQ" targetNode="_a7JEIKDBEeyTr6mJh4tRGQ">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_EHBZVqIEEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Rule-Serv']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_EHBZV6IEEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Rule-Serv']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_EHCAYqIEEeyKpJ-Bif4Iag" sourceNode="_SsQPwaDEEeyTr6mJh4tRGQ" targetNode="_a7Zi0KDBEeyTr6mJh4tRGQ">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_EHCAY6IEEeyKpJ-Bif4Iag" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Rule-Serv']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_EHCAZKIEEeyKpJ-Bif4Iag" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Rule-Serv']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_l92J3qIEEeyKpJ-Bif4Iag" name="Pres-Value:V1:(0.5)" incomingEdges="_6mx1jKIHEeyb3q7VM57btw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:PresitionMarginValue" href="new.cams2024#//@awareobject.0/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0/@presitionmarginvalue.0"/>
+      <semanticElements xmi:type="cams2024:PresitionMarginValue" href="new.cams2024#//@awareobject.0/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0/@presitionmarginvalue.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_92DVEKIEEeyKpJ-Bif4Iag" labelSize="12" showIcon="false" workspacePath="/cams2025/icons/PresitionMarginValue.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Pres-Val']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Pres-Val']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_l92J36IEEeyKpJ-Bif4Iag" name="Pres-Value:V1:(-0.5)" incomingEdges="_6mx1kaIHEeyb3q7VM57btw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:PresitionMarginValue" href="new.cams2024#//@awareobject.1/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0/@presitionmarginvalue.0"/>
+      <semanticElements xmi:type="cams2024:PresitionMarginValue" href="new.cams2024#//@awareobject.1/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0/@presitionmarginvalue.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_92DVEqIEEeyKpJ-Bif4Iag" labelSize="12" showIcon="false" workspacePath="/cams2025/icons/PresitionMarginValue.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Pres-Val']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Pres-Val']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_l92J4KIEEeyKpJ-Bif4Iag" name="Pres-Value:V1:(10.0)" incomingEdges="_6mx1lqIHEeyb3q7VM57btw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:PresitionMarginValue" href="new.cams2024#//@awareobject.2/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0/@presitionmarginvalue.0"/>
+      <semanticElements xmi:type="cams2024:PresitionMarginValue" href="new.cams2024#//@awareobject.2/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0/@presitionmarginvalue.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_92D8IKIEEeyKpJ-Bif4Iag" labelSize="12" showIcon="false" workspacePath="/cams2025/icons/PresitionMarginValue.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Pres-Val']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Pres-Val']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_rqeaQKQZEeydnfyZ9RZmww" name="Pres-Value:V1:(10.0)" incomingEdges="_V4he_KQbEeydnfyZ9RZmww" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="cams2024:PresitionMarginValue" href="new.cams2024#//@awareobject.3/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0/@presitionmarginvalue.0"/>
+      <semanticElements xmi:type="cams2024:PresitionMarginValue" href="new.cams2024#//@awareobject.3/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0/@presitionmarginvalue.0"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_rqeaQaQZEeydnfyZ9RZmww" labelSize="12" showIcon="false" workspacePath="/cams2025/icons/PresitionMarginValue.gif">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Pres-Val']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@nodeMappings[name='Pres-Val']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_e1jxKKIHEeyb3q7VM57btw" sourceNode="_jmK7UKFVEeyyAZdmYuw_-w" targetNode="_CRYu1qF_EeyyAZdmYuw_-w">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_e1kYMKIHEeyb3q7VM57btw" size="2" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Awo-contF']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_e1kYMaIHEeyb3q7VM57btw" labelSize="12">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Awo-contF']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_6mx1jKIHEeyb3q7VM57btw" sourceNode="_cI2DkqFUEeyyAZdmYuw_-w" targetNode="_l92J3qIEEeyKpJ-Bif4Iag">
+      <target xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.0/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_6mx1jaIHEeyb3q7VM57btw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ConcS-PresV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_6mx1jqIHEeyb3q7VM57btw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ConcS-PresV']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_6mx1kaIHEeyb3q7VM57btw" sourceNode="_cI8KMqFUEeyyAZdmYuw_-w" targetNode="_l92J36IEEeyKpJ-Bif4Iag">
+      <target xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.1/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_6mx1kqIHEeyb3q7VM57btw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ConcS-PresV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_6mx1k6IHEeyb3q7VM57btw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ConcS-PresV']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_6mx1lqIHEeyb3q7VM57btw" sourceNode="_cI_NgaFUEeyyAZdmYuw_-w" targetNode="_l92J4KIEEeyKpJ-Bif4Iag">
+      <target xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.2/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_6mx1l6IHEeyb3q7VM57btw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ConcS-PresV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_6mx1mKIHEeyb3q7VM57btw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ConcS-PresV']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_raN_bKJmEeyb3q7VM57btw" sourceNode="_w9488KJeEeyb3q7VM57btw" targetNode="_vH3dMKJjEeyb3q7VM57btw">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_raN_baJmEeyb3q7VM57btw" size="2" centered="Both">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Awo-contF']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_raN_bqJmEeyb3q7VM57btw" labelSize="12">
+          <labelFormat>bold</labelFormat>
+        </centerLabelStyle>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Awo-contF']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_C9btTKLDEeyb3q7VM57btw" sourceNode="_w9488KJeEeyb3q7VM57btw" targetNode="_xi474KJoEeyb3q7VM57btw">
+      <target xmi:type="cams2024:AwareObject" href="new.cams2024#//@awareobject.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_C9btTaLDEeyb3q7VM57btw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ObjAw-CatV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_C9btTqLDEeyb3q7VM57btw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ObjAw-CatV']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_m6kGLKLHEeyb3q7VM57btw" sourceNode="_vH3dMKJjEeyb3q7VM57btw" targetNode="_5Pt_4KLEEeyb3q7VM57btw">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.3/@has_contextfeature.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_m6kGLaLHEeyb3q7VM57btw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='CtxtF-AbsS']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_m6kGLqLHEeyb3q7VM57btw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='CtxtF-AbsS']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_kLWhoKPqEeyajOSSz9kxww" sourceNode="_vH3dMKJjEeyb3q7VM57btw" targetNode="_AzqDsKLLEeyajOSSz9kxww">
+      <target xmi:type="cams2024:ContextFeature" href="new.cams2024#//@awareobject.3/@has_contextfeature.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_kLWhoaPqEeyajOSSz9kxww" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContextF-RelV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_kLWhoqPqEeyajOSSz9kxww" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContextF-RelV']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_vBLe7KPuEeyajOSSz9kxww" sourceNode="_XxFHYKPsEeyajOSSz9kxww" targetNode="_vH3dMKJjEeyb3q7VM57btw">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_vBLe7aPuEeyajOSSz9kxww" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContF-Rule']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_vBLe7qPuEeyajOSSz9kxww" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ContF-Rule']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_2nTl_KPyEeyajOSSz9kxww" sourceNode="_XxFHYKPsEeyajOSSz9kxww" targetNode="_ygRUkKPxEeyajOSSz9kxww">
+      <target xmi:type="cams2024:Rule" href="new.cams2024#//@rule.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_2nTl_aPyEeyajOSSz9kxww" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Rule-Serv']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_2nTl_qPyEeyajOSSz9kxww" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='Rule-Serv']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_gZ4-PKQWEeydnfyZ9RZmww" sourceNode="_5Pt_4KLEEeyb3q7VM57btw" targetNode="_4a3V0KQUEeydnfyZ9RZmww">
+      <target xmi:type="cams2024:AbstractSensor" href="new.cams2024#//@awareobject.3/@has_contextfeature.0/@has_abstractsensor.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_gZ4-PaQWEeydnfyZ9RZmww" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='AbstS-ConcrtS']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_gZ4-PqQWEeydnfyZ9RZmww" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='AbstS-ConcrtS']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_V4he_KQbEeydnfyZ9RZmww" sourceNode="_4a3V0KQUEeydnfyZ9RZmww" targetNode="_rqeaQKQZEeydnfyZ9RZmww">
+      <target xmi:type="cams2024:ConcretSensor" href="new.cams2024#//@awareobject.3/@has_contextfeature.0/@has_abstractsensor.0/@Corresponds_to_concretsensor.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_V4he_aQbEeydnfyZ9RZmww" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ConcS-PresV']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_V4he_qQbEeydnfyZ9RZmww" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer/@edgeMappings[name='ConcS-PresV']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_OczMsJ8XEeyXo_Lrej8k1g"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/cams2024.design/description/cams2024.odesign#//@ownedViewpoints[name='def-cams2024']/@ownedRepresentations[name='cams2024_diagram']/@defaultLayer"/>
+    <target xmi:type="cams2024:Metamodel" href="new.cams2024#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

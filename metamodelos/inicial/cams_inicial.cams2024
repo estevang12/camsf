@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cams2024:Metamodel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cams2024="http://www.example.org/cams2024">
+  <awareobject name="Automovil">
+    <has_contextfeature observer="//@rule.2" name="Posicion" Latitud="-0.187975" Longitud="-78.500374">
+      <has_abstractsensor sensorType="GPS">
+        <Corresponds_to_concretsensor value_of_configuratio_type="Active" ExecutionType="Active">
+          <presitionmarginvalue V1="0.5" VF="2.5"/>
+        </Corresponds_to_concretsensor>
+      </has_abstractsensor>
+      <Has_relevancevalue/>
+    </has_contextfeature>
+    <belong_categoryvalue value_of_categ="MobileObject"/>
+  </awareobject>
+  <awareobject name="Persona">
+    <has_contextfeature name="Actividad En Reunion">
+      <has_abstractsensor sensorType="Beacons">
+        <Corresponds_to_concretsensor value_of_configuratio_type="Default" ExecutionType="Active">
+          <presitionmarginvalue V1="-0.5" VF="0.85"/>
+        </Corresponds_to_concretsensor>
+      </has_abstractsensor>
+      <Has_relevancevalue value_or_range="Medium"/>
+    </has_contextfeature>
+    <belong_categoryvalue/>
+  </awareobject>
+  <awareobject name="AwareObject: CLIMA1">
+    <has_contextfeature name="Clima de Quito">
+      <has_abstractsensor sensorType="ProgramMonitory">
+        <Corresponds_to_concretsensor value_of_configuratio_type="Active" ExecutionType="Active">
+          <presitionmarginvalue V1="10.0" VF="18.0"/>
+        </Corresponds_to_concretsensor>
+      </has_abstractsensor>
+      <Has_relevancevalue value_or_range="High"/>
+    </has_contextfeature>
+    <belong_categoryvalue value_of_categ="Environment"/>
+  </awareobject>
+  <awareobject name="Aware Object: Usuario2">
+    <has_contextfeature name="Posicion" Latitud="-34.92145" Longitud="-57.95453">
+      <has_abstractsensor sensorType="ManualInput">
+        <Corresponds_to_concretsensor value_of_configuratio_type="Default" ExecutionType="Active">
+          <presitionmarginvalue V1="10.0" VF="-10.0"/>
+        </Corresponds_to_concretsensor>
+      </has_abstractsensor>
+      <Has_relevancevalue value_or_range="High"/>
+    </has_contextfeature>
+    <belong_categoryvalue/>
+  </awareobject>
+  <rule executes="//@service.0" rule_description="Control del Clima" update="//@awareobject.2/@has_contextfeature.0"/>
+  <rule executes="//@service.1" rule_description="Control de Posicion en Interiores" update="//@awareobject.1/@has_contextfeature.0"/>
+  <rule executes="//@service.2" rule_description="Control de Mapas" update="//@awareobject.0/@has_contextfeature.0"/>
+  <rule executes="//@service.3" rule_description="Actualiza Posicion" update="//@awareobject.3/@has_contextfeature.0"/>
+  <service name="Monitoreo del Clima" type="Service2"/>
+  <service name="Posicionamiento en Interiores" type="Service1"/>
+  <service name="Mapas" type="Azure_Maps"/>
+  <service name="Servicio 1"/>
+</cams2024:Metamodel>
