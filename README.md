@@ -20,13 +20,13 @@ El objetivo es facilitar la creación de aplicaciones móviles adaptativas media
 El framework sigue un flujo dirigido por modelos (MDD):
 
 DSL textual (Xtext)
-        ↓
+⬇️  
 Metamodelo (Ecore / Sirius)
-        ↓
+⬇️  
 Modelos de ejemplo (Study Cases)
-        ↓
+⬇️  
 Transformaciones Xtend (M2T)
-        ↓
+⬇️  
 Generación de código Flutter
 ---
 El repositorio representa la evolución del DSL CAMS:
