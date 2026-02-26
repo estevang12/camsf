@@ -13,3 +13,11 @@ Los ejemplos muestran cómo definir:
 - Context Features
 - Sensores
 - Reglas y servicios
+Los ejemplos corresponden a escenarios reales modelados en la versión gráfica del DSL, incluyendo:
+
+- Control de mapas
+- Monitoreo del clima
+- Posicionamiento en interiores
+- Actualización de posición
+
+Ver: study_cases.jpg
