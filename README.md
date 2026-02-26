@@ -89,6 +89,8 @@ metamodelos/
 - **Inicial:** concepción temprana del DSL gráfico.
 - **Final:** versión refinada del metamodelo utilizada en el framework.
 
+![Metamodelo CAMS](metamodelos/final/cams_final.jpg)
+
 ---
 
 ### ✔ Transformaciones (Xtend)
