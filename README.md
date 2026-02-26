@@ -24,10 +24,13 @@ DSL textual (Xtext)
 ⬇️  
 
 Metamodelo (Ecore / Sirius)
+
 ⬇️  
 Modelos de ejemplo (Study Cases)
+
 ⬇️  
 Transformaciones Xtend (M2T)
+
 ⬇️  
 Generación de código Flutter
 ---
