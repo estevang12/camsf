@@ -157,7 +157,11 @@ Aplicación Flutter
 
 ## 👨‍🔬 Autor
 
-Proyecto desarrollado como parte de investigación académica en sistemas context-aware y desarrollo dirigido por modelos.
+Proyecto desarrollado por **Estevan Gómez** como parte de la investigación académica y la Tesis Doctoral del **Doctorado en Ciencias Informáticas** de la **Universidad Nacional de La Plata (Argentina)**.
+
+Líneas de investigación:
+- Sistemas context-aware
+- Desarrollo dirigido por modelos (Model-Driven Development)
 
 ---
 
